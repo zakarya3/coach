@@ -17411,7 +17411,6 @@ a.badge-light-success-soft:hover {
 }
 .bg-shape:after {
     position: absolute;
-    background: url(../images/curve-shape.svg);
     background-size: cover;
     background-repeat: no-repeat;
     bottom: -15px;
@@ -17425,7 +17424,6 @@ a.badge-light-success-soft:hover {
 }
 .top-shape:after {
     position: absolute;
-    background: url(../images/curve-shape-top.svg);
     background-size: cover;
     background-repeat: no-repeat;
     top: 0;
@@ -17439,7 +17437,6 @@ a.badge-light-success-soft:hover {
 }
 .bottom-shape:after {
     position: absolute;
-    background: url(../images/curve-shape-bottom.svg);
     background-size: cover;
     background-repeat: no-repeat;
     top: 0;
@@ -17453,7 +17450,6 @@ a.badge-light-success-soft:hover {
 }
 .bg-pattern:before {
     position: absolute;
-    background: url(../images/pattern-2.svg);
     background-size: cover;
     background-repeat: repeat;
     top: 0;
@@ -17468,7 +17464,6 @@ a.badge-light-success-soft:hover {
 }
 .left-slant-shape:before {
     position: absolute;
-    background: url(../images/rectangle-top-shape.svg);
     background-size: cover;
     background-repeat: no-repeat;
     top: 0;
@@ -17482,7 +17477,6 @@ a.badge-light-success-soft:hover {
 }
 .right-slant-shape:after {
     position: absolute;
-    background: url(../images/rectangle-bottom-shape.svg);
     background-size: cover;
     background-repeat: no-repeat;
     bottom: 0;
@@ -17496,7 +17490,6 @@ a.badge-light-success-soft:hover {
 }
 .spark-shape-:after {
     position: absolute;
-    background: url(../images/rectangle-bottom-shape.svg);
     background-size: cover;
     background-repeat: no-repeat;
     bottom: 0;

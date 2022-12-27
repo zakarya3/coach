@@ -72,7 +72,7 @@
     </div>
 
         <!-- podcast -->
-        <div class="pt-0 pb-lg-14 pb-8">
+        <div class="pt-0 pb-lg-14 pb-8" id="help">
             <div class="container">
                 <div class="row">
                     <div class="offset-lg-2 col-lg-8 col-md-12 col-12">
@@ -127,7 +127,7 @@
         </div>
 
             <!-- program section -->
-    <div class="py-7 pt-lg-8 pb-lg-5">
+    <div class="py-7 pt-lg-8 pb-lg-5" id="Cert">
         <div class="container">
             <div class="row">
                 <div class="offset-xl-2 col-xl-8 col-lg-12 col-md-12 col-12">
