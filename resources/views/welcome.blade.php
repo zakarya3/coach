@@ -26,7 +26,7 @@
                     </div>
                     <div class="offset-xl-2 col-xl-5 offset-lg-1 col-lg-5 col-md-6 col-12 mb-n2 d-none d-md-block">
                         <div class="position-relative z-index-1">
-                            <img src="{{ asset('assets/images/speaker-img-1.jpg') }}" alt="" class="img-fluid rounded w-100 border-bottom border-bottom-4 border-primary" />
+                            <img src="{{ asset('/assets/images/speaker-img-1.jpg') }}" alt="" class="img-fluid rounded w-100 border-bottom border-bottom-4 border-primary" />
                             <div class="card-img-overlay d-flex flex-column justify-content-end p-4 ">
                                 <h4 class="mb-0 h2">Fatima Zekhnini</h4>
                                 <span class="font-12">Formatrice en stratégies d'apprentissage</span>
@@ -34,7 +34,7 @@
                         </div>
                         <div class="position-relative z-index-1">
                             <div class=" position-absolute ml-n13 mt-n5">
-                                <img src="{{ asset('assets/images/shape.svg') }}" alt="" />
+                                <img src="{{ asset('/assets/images/shape.svg') }}" alt="" />
                             </div>
                         </div>
                     </div>
@@ -52,16 +52,16 @@
                 </div>
                 <div class="offset-xl-1 col-xl-4 col-lg-6 col-md-6 col-12">
                     <div class="mb-4 mb-lg-0">
-                        <img src="{{ asset('assets/images/speaker-img-1.jpg') }}" alt="" class="img-fluid rounded" />
+                        <img src="{{ asset('/assets/images/speaker-img-1.jpg') }}" alt="" class="img-fluid rounded" />
                     </div>
                 </div>
                 <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-6">
                     <i class="fas fa-quote-left font-28 text-secondary mb-5"></i>
                     <p class="h2 font-dm-serif font-italic font-weight-normal mb-3" style="font-size: 20px">
-                       <img src="{{ asset('assets/images/points.png') }}" alt=""> Pluriactive & pluridisciplinaire, je puise mon énergie dans l’intergénérationnel, le multiculturalisme et la diversité. <br>
-                       <img src="{{ asset('assets/images/points.png') }}" alt=""> Mon driver est la recherche perpétuelle de l’équilibre entre les différentes sphères de la vie, perso, santé, pro, famille et spirituelle au service de la réalisation professionnelle. <br>
-                       <img src="{{ asset('assets/images/points.png') }}" alt=""> Mes forces comportementales résident dans l’adaptabilité constante, la résilience dûes à mon parcours et l’intelligence relationnelle que j’ai développée par mon intérêt pour l’humain et sa singularité. <br>
-                       <img src="{{ asset('assets/images/points.png') }}" alt=""> Mon kif-job est l’accompagnement au développement de vos compétences transversales, la valorisation de vos parcours et surtout le déploiement de votre singularité. <br>
+                       <img src="{{ asset('/assets/images/points.png') }}" alt=""> Pluriactive & pluridisciplinaire, je puise mon énergie dans l’intergénérationnel, le multiculturalisme et la diversité. <br>
+                       <img src="{{ asset('/assets/images/points.png') }}" alt=""> Mon driver est la recherche perpétuelle de l’équilibre entre les différentes sphères de la vie, perso, santé, pro, famille et spirituelle au service de la réalisation professionnelle. <br>
+                       <img src="{{ asset('/assets/images/points.png') }}" alt=""> Mes forces comportementales résident dans l’adaptabilité constante, la résilience dûes à mon parcours et l’intelligence relationnelle que j’ai développée par mon intérêt pour l’humain et sa singularité. <br>
+                       <img src="{{ asset('/assets/images/points.png') }}" alt=""> Mon kif-job est l’accompagnement au développement de vos compétences transversales, la valorisation de vos parcours et surtout le déploiement de votre singularité. <br>
 
                     </p>
                     <p class="font-14 mb-5">Fatima Zekhnini, Formatrice en stratégies d'apprentissage</p>
@@ -148,8 +148,8 @@
                     <!-- program thumbnail -->
                     <div class="card mb-4 mt-n8 border-0">
                         <div class="row no-gutters ">
-                            <div class="col-12 col-md-6 rounded-left bg-cover " style="background-image: url({{ asset('assets/images/program-img-1.jpg') }}); ">
-                                <img src="{{ asset('assets/images/program-img-1.jpg') }}" class=" img-fluid d-md-none invisible" alt="" />
+                            <div class="col-12 col-md-6 rounded-left bg-cover " style="background-image: url({{ asset('/assets/images/program-img-1.jpg') }}); ">
+                                <img src="{{ asset('/assets/images/program-img-1.jpg') }}" class=" img-fluid d-md-none invisible" alt="" />
                             </div>
                             <div class="col-lg-6 col-md-6 col-12 ">
                                 <div class="card-body p-6 border-top border-primary rounded-right border-top-4">
@@ -235,10 +235,10 @@
                         </div>
                         <div
                         class="col-12 col-md-6 rounded-right bg-cover"
-                        style="background-image: url({{ asset('assets/images/program-img-2.jpg') }}); "
+                        style="background-image: url({{ asset('/assets/images/program-img-2.jpg') }}); "
                         >
                         <img
-                            src="{{ asset('assets/images/program-img-2.jpg') }}"
+                            src="{{ asset('/assets/images/program-img-2.jpg') }}"
                             class="img-fluid d-md-none invisible"
                             alt=""
                         />

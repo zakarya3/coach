@@ -9,7 +9,7 @@
               rgba(30, 24, 53, 0.4) 0%,
               rgba(30, 24, 53, 0.4) 90.16%
             ),
-            url({{ asset('assets/images/contact-hero-img.jpg') }});
+            url({{ asset('/assets/images/contact-hero-img.jpg') }});
         "
       >
         <div class="container">

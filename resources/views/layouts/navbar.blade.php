@@ -4,21 +4,21 @@
 
 <!-- Mirrored from codescandy.com/coach/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Dec 2022 17:34:51 GMT -->
 <head>
-    <title>Coach - Index - Bootstrap Theme</title>
+    <title>Coach - Fatima Zekhnini</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
     <!-- Libs CSS -->
-    <link rel="stylesheet" href="{{ asset('assets/libs/tiny-slider/dist/tiny-slider.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/libs/ion-rangeslider/css/ion.rangeSlider.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/libs/litepicker/dist/css/litepicker.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/libs/bootstrap-icons/font/bootstrap-icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('/assets/libs/tiny-slider/dist/tiny-slider.css') }}">
+    <link rel="stylesheet" href="{{ asset('/assets/libs/ion-rangeslider/css/ion.rangeSlider.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('/assets/libs/litepicker/dist/css/litepicker.css') }}">
+    <link rel="stylesheet" href="{{ asset('/assets/libs/bootstrap-icons/font/bootstrap-icons.css') }}">
 
 
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="{{ asset('assets/css/theme.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('/assets/css/theme.min.css') }}">
 </head>
 
 <body>
@@ -28,7 +28,7 @@
       <!-- navigation start -->
       <div class="container-lg">
         <nav class="navbar navbar-expand-lg navbar-default">
-          <a class="navbar-brand" href="index-2.html"><img src="{{ asset('assets/images/logo.svg') }}" alt="" /></a>
+          <a class="navbar-brand" href="index-2.html"><img src="{{ asset('/assets/images/logo.svg') }}" alt="" /></a>
           <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-default"
             aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar top-bar mt-0"></span>
@@ -142,16 +142,16 @@
 
 
     <!-- Libs JS -->
-    <script src="{{ asset('assets/libs/jquery/dist/jquery.min.js') }}"></script>
-    <script src="{{ asset('assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('assets/libs/jquery-slimscroll/jquery.slimscroll.min.js') }}"></script>
-    <script src="{{ asset('assets/libs/magnific-popup/dist/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ asset('assets/libs/prismjs/prism.js') }}"></script>
-    <script src="{{ asset('assets/libs/leaflet/dist/leaflet.js') }}"></script>
-    <script src="{{ asset('assets/libs/litepicker/dist/litepicker.js') }}"></script>
-    <script src="{{ asset('assets/libs/ion-rangeslider/js/ion.rangeSlider.min.js') }}"></script>
-    <script src="{{ asset('assets/libs/inputmask/dist/jquery.inputmask.min.js') }}"></script>
-    <script src="{{ asset('assets/libs/tiny-slider/dist/min/tiny-slider.js') }}"></script>
+    <script src="{{ asset('/assets/libs/jquery/dist/jquery.min.js') }}"></script>
+    <script src="{{ asset('/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('/assets/libs/jquery-slimscroll/jquery.slimscroll.min.js') }}"></script>
+    <script src="{{ asset('/assets/libs/magnific-popup/dist/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('/assets/libs/prismjs/prism.js') }}"></script>
+    <script src="{{ asset('/assets/libs/leaflet/dist/leaflet.js') }}"></script>
+    <script src="{{ asset('/assets/libs/litepicker/dist/litepicker.js') }}"></script>
+    <script src="{{ asset('/assets/libs/ion-rangeslider/js/ion.rangeSlider.min.js') }}"></script>
+    <script src="{{ asset('/assets/libs/inputmask/dist/jquery.inputmask.min.js') }}"></script>
+    <script src="{{ asset('/assets/libs/tiny-slider/dist/min/tiny-slider.js') }}"></script>
 
 
     <!-- clipboard -->
@@ -160,7 +160,7 @@
 
 
     <!-- Theme JS -->
-    <script src="{{ asset('assets/js/theme.min.js') }}"></script>
+    <script src="{{ asset('/assets/js/theme.min.js') }}"></script>
   </body>
 
 <!-- Mirrored from codescandy.com/coach/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Dec 2022 17:35:34 GMT -->

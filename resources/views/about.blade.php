@@ -2,7 +2,7 @@
 @section('content')
         <!-- hero section -->
         <div class="bg-cover" style="background-image:linear-gradient(180deg, rgba(30, 24, 53, 0.4) 0%, rgba(30, 24, 53, 0.4) 90.16%),
-        url({{ asset('assets/images/about-hero-img.jpg') }});">
+        url({{ asset('/assets/images/about-hero-img.jpg') }});">
           <div class="container">
               <div class="row">
                   <div class="offset-lg-2 col-lg-8 col-md-12 col-12">
