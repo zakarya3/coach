@@ -1,45 +1,27 @@
 @extends('layouts.navbar')
 @section('content')
         <!-- hero section -->
-        <div class="bg-dark right-slant-shape pt-lg-13 py-12 pb-lg-0 ">
+        <div style="background: url({{ asset('assets/images/pic2.jpeg') }}); background-size: cover; background-repeat: no-repeat; background-position: center;">
             <div class="container">
-                <div class="row d-lg-flex align-items-center ">
-                    <div class="col-lg-5 col-lg-5 col-md-6 col-12">
-                        <div class="mb-0 mb-lg-8 ">
-                            <h1 class=" text-white mb-3 display-4" style="font-size: 30px">
+                <div class="row">
+                    <div class="offset-xl-1 col-xl-10 col-md-12 col-12">
+                        <div class="pt-14 pb-12 pt-lg-16 pb-lg-14 text-center text-light">
+                            <h1 class="display-3 font-weight-bold text-white mb-2">
                                 EASY PROFESSIONAL TRAINING & CONSULTING COACHING & MENTORING
-
                             </h1>
-    
-                            <p class="mb-6 lead text-white-50" style="font-size: 15px">
-                                Push your life to a new level. <br> Connaissez votre valeur pour rayonner vers l’extérieur ! <br> « L’homme est ce qu’il croit » Anton Tchekhov.
-
+                            <p class="px-lg-14 mb-4 lead">
+                                Push your life to a new level. <br /> Connaissez votre valeur pour rayonner vers l’extérieur ! <br> « L’homme est ce qu’il croit » Anton Tchekhov.
                             </p>
                             <a href="" style="font-size: 10px" class="btn btn-primary mr-3">Conférence de Fatima Marrakech – YouTube</a>
                             <a class="popup-youtube icon-shape rounded-circle btn-play icon-md bg-secondary text-white mr-1
                                          text-decoration-none font-12" target="_blank" href="https://www.youtube.com/watch?v=9YU-3S7OZ58">
                                 <i class="fas fa-play"></i>
                             </a>
-                            <a href="https://www.youtube.com/watch?v=9YU-3S7OZ58" target="_blank" class="popup-youtube text-white">Watch Video
-                  </a>
-                        </div>
-                    </div>
-                    <div class="offset-xl-2 col-xl-5 offset-lg-1 col-lg-5 col-md-6 col-12 mb-n2 d-none d-md-block">
-                        <div class="position-relative z-index-1">
-                            <img src="{{ asset('/assets/images/speaker-img-1.jpg') }}" alt="" class="img-fluid rounded w-100 border-bottom border-bottom-4 border-primary" />
-                            <div class="card-img-overlay d-flex flex-column justify-content-end p-4 ">
-                                <h4 class="mb-0 h2">Fatima Zekhnini</h4>
-                                <span class="font-12">Formatrice en stratégies d'apprentissage</span>
-                            </div>
-                        </div>
-                        <div class="position-relative z-index-1">
-                            <div class=" position-absolute ml-n13 mt-n5">
-                                <img src="{{ asset('/assets/images/shape.svg') }}" alt="" />
-                            </div>
-                        </div>
-                    </div>
+                            <a href="https://www.youtube.com/watch?v=9YU-3S7OZ58" target="_blank" class="popup-youtube text-white">Watch Video</a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
             <!-- testimonails -->
     <div class="pt-14 pb-10 top-shape " style="background:linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 102.23%), #F8F8F8;">
@@ -52,7 +34,7 @@
                 </div>
                 <div class="offset-xl-1 col-xl-4 col-lg-6 col-md-6 col-12">
                     <div class="mb-4 mb-lg-0">
-                        <img src="{{ asset('/assets/images/speaker-img-1.jpg') }}" alt="" class="img-fluid rounded" />
+                        <img src="{{ asset('assets/images/pic1.jpeg') }}" alt="" class="img-fluid rounded" />
                     </div>
                 </div>
                 <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-6">
@@ -159,7 +141,7 @@
                                             <i class="fas fa-check-circle mr-2 text-primary font-12"></i> <b>Passion d'apprendre</b>
                                             <ul>
                                                 <li>Coach certifié  Stratégies d'apprentissages</li>
-                                                <li><a href="https://la-semaine.com/p-marrakech_2018"> https://la-semaine.com/p-marrakech_2018</a></li>
+                                                <li><a href="https://la-semaine.com/p-marrakech_2018" target="_blank"> https://la-semaine.com/p-marrakech_2018</a></li>
                                                 <li>Co-Auteure de « La boîte à outils du cerveau pour les parents », Paris, France, 2018</li>
                                             </ul>
                                         </li>
@@ -235,10 +217,10 @@
                         </div>
                         <div
                         class="col-12 col-md-6 rounded-right bg-cover"
-                        style="background-image: url({{ asset('/assets/images/program-img-2.jpg') }}); "
+                        style="background-image: url({{ asset('assets/images/thumb-img-6.jpg') }}); "
                         >
                         <img
-                            src="{{ asset('/assets/images/program-img-2.jpg') }}"
+                            src="{{ asset('assets/images/thumb-img-6.jpg') }}"
                             class="img-fluid d-md-none invisible"
                             alt=""
                         />
