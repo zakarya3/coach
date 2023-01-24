@@ -70,7 +70,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Consulting</h5>
                             <p class="card-text">Consulting en  gestion de la formation : analyse des besoins en formation – évaluation de la formation et des formateurs.</p>
-                            <a href="#" class="btn btn-primary">Contact us</a>
+                            <a href="{{ url('/contact') }}" class="btn btn-primary">Contact us</a>
                         </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Training</h5>
                             <p class="card-text">Training en soft skills – stratégies d’apprentissage – formation de formateur.</p>
-                            <a href="#" class="btn btn-primary">Contact us</a>
+                            <a href="{{ url('/contact') }}" class="btn btn-primary">Contact us</a>
                         </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Coaching</h5>
                             <p class="card-text">Coaching en transition professionnelle - auto-apprentissage.</p>
-                            <a href="#" class="btn btn-primary">Contact us</a>
+                            <a href="{{ url('/contact') }}" class="btn btn-primary">Contact us</a>
                         </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Co-working & mentoring</h5>
                             <p class="card-text">Co-working & mentoring   space for women in business.</p>
-                            <a href="#" class="btn btn-primary">Contact us</a>
+                            <a href="{{ url('/contact') }}" class="btn btn-primary">Contact us</a>
                         </div>
                         </div>
                     </div>
