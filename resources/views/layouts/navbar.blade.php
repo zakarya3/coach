@@ -4,11 +4,12 @@
 
 <!-- Mirrored from codescandy.com/coach/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Dec 2022 17:34:51 GMT -->
 <head>
-    <title></title>
+    <title>EASY PROFESSIONAL TRAINING & CONSULTING COACHING & MENTORING</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="shortcut icon" href="{{ asset('assets/logo/epronetworks.png') }}">
 
     <!-- Libs CSS -->
     <link rel="stylesheet" href="{{ asset('/assets/libs/tiny-slider/dist/tiny-slider.css') }}">
@@ -28,7 +29,7 @@
       <!-- navigation start -->
       <div class="container-lg">
         <nav class="navbar navbar-expand-lg navbar-default">
-          <a class="navbar-brand" href="index-2.html"><img src="{{ asset('/assets/images/logo.svg') }}" alt="" /></a>
+          <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('assets/logo/epronetworks.png') }}" style="width: 40%" alt="" /></a>
           <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-default"
             aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar top-bar mt-0"></span>
@@ -88,15 +89,20 @@
     <div class="footer pt-11 pb-3 bg-dark text-base">
         <div class="container">
             <div class="row">
+              <div class="col-lg-4 col-md-8 col-12">
+                <div class="mb-4">
+                  <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('assets/logo/EPRONETWORKS1.png') }}" style="width: 80%" alt="" /></a>
+                </div>
+            </div>
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="mb-4">
                         <h4 class="mb-4 text-white">Links</h4>
                         <ul class="list-unstyled list-group">
-                            <li class="list-group-item"><a href="{{ url('/') }}" class="list-group-item-link">Acceuil</a></li>
-                            <li class="list-group-item"><a href="{{ url('/#help') }}" class="list-group-item-link">How can i help you?</a></li>
-                            <li class="list-group-item"><a href="{{ url('/#Cert') }}" class="list-group-item-link">Certifications</a></li>
-                            <li class="list-group-item"><a href="{{ url('/about') }}" class="list-group-item-link"> À propos</a></li>
-                            <li class="list-group-item"><a href="{{ url('/contact') }}" class="list-group-item-link">Contact</a></li>
+                            <li class="list-group-item"><a href="{{ url('/') }}" class="list-group-item-link" style="color: white !important">Acceuil</a></li>
+                            <li class="list-group-item"><a href="{{ url('/#help') }}" class="list-group-item-link" style="color: white !important">How can i help you?</a></li>
+                            <li class="list-group-item"><a href="{{ url('/#Cert') }}" class="list-group-item-link" style="color: white !important">Certifications</a></li>
+                            <li class="list-group-item"><a href="{{ url('/about') }}" class="list-group-item-link" style="color: white !important"> À propos</a></li>
+                            <li class="list-group-item"><a href="{{ url('/contact') }}" class="list-group-item-link" style="color: white !important">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -104,11 +110,11 @@
                     <div class="mb-4">
                         <h4 class="mb-4 text-white ">Blog</h4>
                         <ul class="list-unstyled list-group ">
-                            <li class="list-group-item"><a href="#!" class="list-group-item-link">Business Coaching</a></li>
-                            <li class="list-group-item"><a href="#!" class="list-group-item-link">Relationship</a></li>
-                            <li class="list-group-item"><a href="#!" class="list-group-item-link">Leadership</a></li>
-                            <li class="list-group-item"><a href="#!" class="list-group-item-link">Life Coaching</a></li>
-                            <li class="list-group-item"><a href="#!" class="list-group-item-link">Time Management</a></li>
+                            <li class="list-group-item"><a href="#!" class="list-group-item-link" style="color: white !important">Business Coaching</a></li>
+                            <li class="list-group-item"><a href="#!" class="list-group-item-link" style="color: white !important">Relationship</a></li>
+                            <li class="list-group-item"><a href="#!" class="list-group-item-link" style="color: white !important">Leadership</a></li>
+                            <li class="list-group-item"><a href="#!" class="list-group-item-link" style="color: white !important">Life Coaching</a></li>
+                            <li class="list-group-item"><a href="#!" class="list-group-item-link" style="color: white !important">Time Management</a></li>
                         </ul>
                     </div>
                 </div>
@@ -129,7 +135,7 @@
                 <div class="col-md-12">
                     <div class="mt-8">
                         <ul class="list-inline">
-                            <li class="list-inline-item">© <script>document.write(new Date().getFullYear())</script> Coach, Inc.</li>
+                            <li class="list-inline-item">© <script>document.write(new Date().getFullYear())</script> Epronetworks</li>
                             <li class="list-inline-item"><a href="#!" class="text-reset"> Privacy Policy </a></li>
                             <li class="list-inline-item"><a href="#!" class="text-reset"> Terms</a></li>
                         </ul>
