@@ -152,10 +152,11 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <i class="fas fa-check-circle mr-2 text-primary font-12"></i>Institut Européen Interuniversitaire de l'Action Sociale
+                                            <i class="fas fa-check-circle mr-2 text-primary font-12"></i> <b>Institut Européen</b>
                                             <ul>
-                                                <li>Certificat Européen de Formation Universitaire en Ingénierie Sociale</li>
-                                                <li>Chargée d’études Université de Florence et Université du Luxembourg</li>
+                                              <li>Interuniversitaire de l'Action Sociale</li>
+                                              <li>Certificat Européen de Formation Universitaire en Ingénierie Sociale</li>
+                                              <li>Chargée d’études Université de Florence et Université du Luxembourg</li>
                                             </ul>
                                         </li>
                                         <li>
@@ -301,14 +302,14 @@
                     <div class="col-lg-4 col-md-4 col-12">
                       <div class="text-center">
                         <h4 class="h5 mb-3">Speaking inquiries:</h4>
-                        <p class="text-danger font-weight-bold">123-456-7890</p>
+                        <p class="text-danger font-weight-bold">+212 604 920 937 <br> +32 484 965 402</p>
                       </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                       <div class="text-center">
                         <h4 class="h5 mb-3">Business inquiries:</h4>
                         <a href="#!" class="text-danger font-weight-bold"
-                          >info@coachexample.com</a
+                          >contact@epronetworks.eu</a
                         >
                       </div>
                     </div>
@@ -316,7 +317,7 @@
                       <div class="text-center">
                         <h4 class="h5 mb-3">Press Contact:</h4>
                         <a href="#!" class="text-danger font-weight-bold"
-                          >farris@coach.com
+                          >F.zekhnini@epronetworks.eu
                         </a>
                       </div>
                     </div>
