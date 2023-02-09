@@ -1,21 +1,17 @@
 @extends('layouts.navbar')
 @section('content')
         <!-- hero section -->
-        <div class="bg-cover" style="background-image:linear-gradient(180deg, rgba(30, 24, 53, 0.4) 0%, rgba(30, 24, 53, 0.4) 90.16%),
-        url({{ asset('/assets/images/about-hero-img.jpg') }});">
+        <div class="bg-cover" style="padding-top: 120px;background-image:linear-gradient(180deg, rgba(30, 24, 53, 0.4) 0%, rgba(30, 24, 53, 0.4) 90.16%),
+        url({{ asset('assets/images/about-me/XIFA4723.jpg') }}); ">
           <div class="container">
               <div class="row">
                   <div class="offset-lg-2 col-lg-8 col-md-12 col-12">
                       <div class="py-lg-15 py-12 text-white text-center">
-                          <a class="popup-youtube icon-shape rounded-circle btn-play icon-xl 
-                                         text-decoration-none mb-3" href="https://www.youtube.com/watch?v=JRzWRZahOVU">
-                              <i class="fas fa-play"></i>
-                          </a>
                           <h1 class="font-weight-bold text-white mb-2 display-2">
-                              The Coach
+                            Fatima Zekhnini
                           </h1>
                           <p class="mb-0 lead text-light">
-                              world leading motivational speaker
+                            EASY PROFESSIONAL TRAINING & CONSULTING COACHING & MENTORING
                           </p>
                       </div>
                   </div>

@@ -9,19 +9,14 @@
               rgba(30, 24, 53, 0.4) 0%,
               rgba(30, 24, 53, 0.4) 90.16%
             ),
-            url({{ asset('/assets/images/contact-hero-img.jpg') }});
+            url({{ asset('assets/images/about-me/HXXH5474.jpg') }});
         "
       >
         <div class="container">
           <div class="row">
             <div class="offset-lg-2 col-lg-8 col-md-12 col-12">
               <div class="text-center py-lg-16 py-12">
-                <h1 class="mb-3 display-4 text-white">Get Connect</h1>
-                <p class="lead text-light mb-4 mb-lg-0">
-                  Our team gets hundreds of emails, notes, and requests for
-                  different opportunities every day. And yes, my team members and
-                  I do read every single email that comes through.
-                </p>
+                <h1 class="mb-3 display-4 text-white">Contactez-nous</h1>
               </div>
             </div>
           </div>
@@ -35,31 +30,31 @@
               <div class="card mt-n12 text-center mb-12">
                 <div class="card-body p-4 p-lg-8">
                   <div class="mb-5">
-                    <h2 class="mb-3">I love Hearing From You</h2>
+                    <h2 class="mb-3">J'aime avoir de tes nouvelles</h2>
                     <p>
-                      If you are looking for advice, please fill out this form. We
-                      will <br />find you and get in touch.
+                      Si vous cherchez des conseils, merci de remplir ce formulaire. Nous allons
+                      vous trouver et entrer en contact.
                     </p>
                   </div>
                   <form class="form-row">
                     <div class="from-group col-md-6 col-12 mb-3">
-                      <label for="fname" class="sr-only">First Name</label>
+                      <label for="fname" class="sr-only">Nom</label>
                       <input
                         type="text"
                         class="form-control"
                         id="fname"
-                        placeholder="First Name"
+                        placeholder="Nom"
                         name="fname"
                         required
                       />
                     </div>
                     <div class="from-group col-md-6 col-12 mb-3">
-                      <label for="lname" class="sr-only">Last Name</label>
+                      <label for="lname" class="sr-only">Prenom</label>
                       <input
                         type="text"
                         class="form-control"
                         id="lname"
-                        placeholder="Last Name"
+                        placeholder="Prenom"
                         name="lname"
                         required
                       />
@@ -76,17 +71,17 @@
                       />
                     </div>
                     <div class="form-group col-12 mb-3">
-                      <label for="purpose" class="sr-only">Purpose</label>
+                      <label for="purpose" class="sr-only">But</label>
                       <select class="custom-select" id="purpose">
-                        <option selected>Select Purpose</option>
-                        <option value="1">Business Coaching</option>
-                        <option value="2">Lifecoaching</option>
-                        <option value="3">Other</option>
+                        <option selected>Sélectionnez l'objectif</option>
+                        <option value="1">Consulting</option>
+                        <option value="2">Training</option>
+                        <option value="3">Coaching</option>
                       </select>
                     </div>
                     <div class="col-12">
                       <button type="submit" class="btn btn-primary btn-block">
-                        Send Messages
+                        Envoyer
                       </button>
                     </div>
                   </form>
@@ -97,14 +92,14 @@
                 <div class="col-lg-4 col-md-4 col-12">
                   <div class="text-center">
                     <h4 class="h5 mb-3">Speaking inquiries:</h4>
-                    <p class="text-danger font-weight-bold">123-456-7890</p>
+                    <p class="text-danger font-weight-bold">+212 604 920 937 <br> +32 484 965 402</p>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-12">
                   <div class="text-center">
                     <h4 class="h5 mb-3">Business inquiries:</h4>
                     <a href="#!" class="text-danger font-weight-bold"
-                      >info@coachexample.com</a
+                      >contact@epronetworks.eu</a
                     >
                   </div>
                 </div>
@@ -112,7 +107,7 @@
                   <div class="text-center">
                     <h4 class="h5 mb-3">Press Contact:</h4>
                     <a href="#!" class="text-danger font-weight-bold"
-                      >farris@coach.com
+                      >F.zekhnini@epronetworks.eu
                     </a>
                   </div>
                 </div>

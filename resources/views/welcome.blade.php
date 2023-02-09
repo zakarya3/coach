@@ -1,7 +1,7 @@
 @extends('layouts.navbar')
 @section('content')
         <!-- hero section -->
-        <div style="background: url({{ asset('assets/images/pic2.jpeg') }}); background-size: cover; background-repeat: no-repeat; background-position: center;">
+        <div style="background: url({{ asset('assets/images/about-me/HSSQ1522.jpg') }}); background-size: cover; background-repeat: no-repeat; background-position: center;">
             <div class="container">
                 <div class="row">
                     <div class="offset-xl-1 col-xl-10 col-md-12 col-12">
@@ -10,14 +10,14 @@
                                 EASY PROFESSIONAL TRAINING & CONSULTING COACHING & MENTORING
                             </h1>
                             <p class="px-lg-14 mb-4 lead">
-                                Push your life to a new level. <br /> Connaissez votre valeur pour rayonner vers l’extérieur ! <br> « L’homme est ce qu’il croit » Anton Tchekhov.
+                              Poussez votre vie à un nouveau niveau. <br /> Connaissez votre valeur pour rayonner vers l’extérieur ! <br> « L’homme est ce qu’il croit » Anton Tchekhov.
                             </p>
                             <a href="" style="font-size: 10px" class="btn btn-primary mr-3">Conférence de Fatima Marrakech – YouTube</a>
                             <a class="popup-youtube icon-shape rounded-circle btn-play icon-md bg-secondary text-white mr-1
                                          text-decoration-none font-12" target="_blank" href="https://www.youtube.com/watch?v=9YU-3S7OZ58">
                                 <i class="fas fa-play"></i>
                             </a>
-                            <a href="https://www.youtube.com/watch?v=9YU-3S7OZ58" target="_blank" class="popup-youtube text-white">Watch Video</a>
+                            <a href="https://www.youtube.com/watch?v=9YU-3S7OZ58" target="_blank" class="popup-youtube text-white">Regarder la vidéo</a>
                 </div>
               </div>
             </div>
@@ -29,12 +29,12 @@
             <div class="row d-lg-flex align-items-center">
                 <div class="offset-lg-3 col-lg-6 col-md-12 col-12">
                     <div class="mb-8 text-center">
-                        <h2 class="h1">About me.</h2>
+                        <h2 class="h1">Sur moi.</h2>
                     </div>
                 </div>
                 <div class="offset-xl-1 col-xl-4 col-lg-6 col-md-6 col-12">
                     <div class="mb-4 mb-lg-0">
-                        <img src="{{ asset('assets/images/pic1.jpeg') }}" alt="" class="img-fluid rounded" />
+                        <img src="{{ asset('assets/images/about-me/WhatsApp Image 2023-02-08 at 17.54.22.jpeg') }}" alt="" class="img-fluid rounded" />
                     </div>
                 </div>
                 <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-6">
@@ -59,8 +59,8 @@
                 <div class="row">
                     <div class="offset-lg-2 col-lg-8 col-md-12 col-12">
                         <div class="mb-8 text-center">
-                            <h2>How can i help you?</h2>
-                            <p class="lead">Get started now with insights and strategies from The Coach</p>
+                            <h2>Comment puis-je t'aider?</h2>
+                            <p class="lead">Commencez dès maintenant avec les idées et les stratégies de Fatima Zekhnini</p>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Consulting</h5>
                             <p class="card-text">Consulting en  gestion de la formation : analyse des besoins en formation – évaluation de la formation et des formateurs.</p>
-                            <a href="{{ url('/contact') }}" class="btn btn-primary">Contact us</a>
+                            <a href="{{ url('/contact') }}" class="btn btn-primary">Contactez-nous</a>
                         </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Training</h5>
                             <p class="card-text">Training en soft skills – stratégies d’apprentissage – formation de formateur.</p>
-                            <a href="{{ url('/contact') }}" class="btn btn-primary">Contact us</a>
+                            <a href="{{ url('/contact') }}" class="btn btn-primary">Contactez-nous</a>
                         </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Coaching</h5>
                             <p class="card-text">Coaching en transition professionnelle - auto-apprentissage.</p>
-                            <a href="{{ url('/contact') }}" class="btn btn-primary">Contact us</a>
+                            <a href="{{ url('/contact') }}" class="btn btn-primary">Contactez-nous</a>
                         </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Co-working & mentoring</h5>
                             <p class="card-text">Co-working & mentoring   space for women in business.</p>
-                            <a href="{{ url('/contact') }}" class="btn btn-primary">Contact us</a>
+                            <a href="{{ url('/contact') }}" class="btn btn-primary">Contactez-nous</a>
                         </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                 <div class="offset-xl-2 col-xl-8 col-lg-12 col-md-12 col-12">
                     <div class="mb-10 text-center">
                         <h2 class="mb-3 h1">
-                            Discover life coaching programs
+                          Découvrez les programmes de coaching de vie
                         </h2>
                     </div>
                 </div>
@@ -130,8 +130,8 @@
                     <!-- program thumbnail -->
                     <div class="card mb-4 mt-n8 border-0">
                         <div class="row no-gutters ">
-                            <div class="col-12 col-md-6 rounded-left bg-cover " style="background-image: url({{ asset('/assets/images/program-img-1.jpg') }}); ">
-                                <img src="{{ asset('/assets/images/program-img-1.jpg') }}" class=" img-fluid d-md-none invisible" alt="" />
+                            <div class="col-12 col-md-6 rounded-left bg-cover " style="background-image: url({{ asset('assets/images/about-me/IMG_4699.PNG') }}); ">
+                                <img src="{{ asset('assets/images/about-me/IMG_4699.PNG') }}" class=" img-fluid d-md-none invisible" alt="" />
                             </div>
                             <div class="col-lg-6 col-md-6 col-12 ">
                                 <div class="card-body p-6 border-top border-primary rounded-right border-top-4">
@@ -180,7 +180,7 @@
                         <div
                             class="card-body p-6 border-top border-primary rounded-left border-top-4"
                         >
-                            <h2 class="mb-3">Our mission</h2>
+                            <h2 class="mb-3">Notre mission</h2>
                             <ul class="list-unstyled mb-4">
                             <li>
                                 <i
@@ -218,10 +218,10 @@
                         </div>
                         <div
                         class="col-12 col-md-6 rounded-right bg-cover"
-                        style="background-image: url({{ asset('assets/images/thumb-img-6.jpg') }}); "
+                        style="background-image: url({{ asset('assets/images/about-me/IMG_1487.JPG') }}); "
                         >
                         <img
-                            src="{{ asset('assets/images/thumb-img-6.jpg') }}"
+                            src="{{ asset('assets/images/about-me/IMG_1487.JPG') }}"
                             class="img-fluid d-md-none invisible"
                             alt=""
                         />
@@ -232,6 +232,37 @@
             </div>
         </div>
     </div>
+    <div class="py-7 pt-lg-8 pb-lg-5" id="Cert">
+      <div class="container">
+          <div class="row">
+              <div class="offset-xl-2 col-xl-8 col-lg-12 col-md-12 col-12">
+                  <div class="mb-10 text-center">
+                      <h2 class="mb-3 h1">
+                          Galerie <i class="bi-image"></i>
+                      </h2>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    <div class="bg-light left-slant-shape pt-lg-3 pb-lg-3 right-slant-shape py-5">
+      <div class="row no-gutters ">
+        <div class="col-md-3 col-12">
+           <img src="{{ asset('assets/images/about-me/DEBR8744.jpg') }}" alt="" class="img-fluid border-right border-white h-lg-100">
+        </div>
+        <div class="col-md-3 col-12">
+           <img src="{{ asset('assets/images/about-me/ASVG3636.jpg') }}" alt="" class="img-fluid border-bottom border-white h-lg-100">
+           <img src="{{ asset('assets/images/about-me/HCPJ1543 (2).jpg') }}" alt="" class="img-fluid border-bottom border-white h-lg-100 ">
+        </div>
+        <div class="col-md-3 col-12">
+           <img src="{{ asset('assets/images/about-me/UKQD5388 (1).jpg') }}" alt="" class="img-fluid border-bottom border-white h-lg-100 border-left">
+           <img src="{{ asset('assets/images/about-me/JLYB0698.jpg') }}" alt="" class="img-fluid border-bottom border-white h-lg-100 border-left">
+        </div>
+        <div class="col-md-3 col-12">
+           <img src="{{ asset('assets/images/about-me/IMG_3864.JPG') }}" alt="" class="img-fluid border-left border-white h-lg-100">
+        </div>
+      </div>
+    </div>
     <div class="py-7 pt-lg-8 pb-lg-5">
         <div class="pb-14">
             <div class="container">
@@ -240,31 +271,31 @@
                   <div class="card mt-n12 text-center mb-12">
                     <div class="card-body p-4 p-lg-8">
                       <div class="mb-5">
-                        <h2 class="mb-3">I love Hearing From You</h2>
+                        <h2 class="mb-3">J'aime avoir de tes nouvelles</h2>
                         <p>
-                          If you are looking for advice, please fill out this form. We
-                          will <br />find you and get in touch.
+                          Si vous cherchez des conseils, merci de remplir ce formulaire. Nous allons
+vous trouver et entrer en contact.
                         </p>
                       </div>
                       <form class="form-row">
                         <div class="from-group col-md-6 col-12 mb-3">
-                          <label for="fname" class="sr-only">First Name</label>
+                          <label for="fname" class="sr-only">Nom</label>
                           <input
                             type="text"
                             class="form-control"
                             id="fname"
-                            placeholder="First Name"
+                            placeholder="Nom"
                             name="fname"
                             required
                           />
                         </div>
                         <div class="from-group col-md-6 col-12 mb-3">
-                          <label for="lname" class="sr-only">Last Name</label>
+                          <label for="lname" class="sr-only">Prenom</label>
                           <input
                             type="text"
                             class="form-control"
                             id="lname"
-                            placeholder="Last Name"
+                            placeholder="Prenom"
                             name="lname"
                             required
                           />
@@ -281,17 +312,17 @@
                           />
                         </div>
                         <div class="form-group col-12 mb-3">
-                          <label for="purpose" class="sr-only">Purpose</label>
+                          <label for="purpose" class="sr-only">But</label>
                           <select class="custom-select" id="purpose">
-                            <option selected>Select Purpose</option>
-                            <option value="1">Business Coaching</option>
-                            <option value="2">Lifecoaching</option>
-                            <option value="3">Other</option>
+                            <option selected>Sélectionnez l'objectif</option>
+                            <option value="1">Consulting</option>
+                            <option value="2">Training</option>
+                            <option value="3">Coaching</option>
                           </select>
                         </div>
                         <div class="col-12">
                           <button type="submit" class="btn btn-primary btn-block">
-                            Send Messages
+                            Envoyer
                           </button>
                         </div>
                       </form>

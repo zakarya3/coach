@@ -55,7 +55,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{{ url('/#help') }}">
-                  How can i help you?
+                  Comment puis-je t'aider?
                 </a>
               </li>
               <li class="nav-item">
@@ -99,7 +99,7 @@
                         <h4 class="mb-4 text-white">Links</h4>
                         <ul class="list-unstyled list-group">
                             <li class="list-group-item"><a href="{{ url('/') }}" class="list-group-item-link" style="color: white !important">Acceuil</a></li>
-                            <li class="list-group-item"><a href="{{ url('/#help') }}" class="list-group-item-link" style="color: white !important">How can i help you?</a></li>
+                            <li class="list-group-item"><a href="{{ url('/#help') }}" class="list-group-item-link" style="color: white !important">Comment puis-je t'aider?</a></li>
                             <li class="list-group-item"><a href="{{ url('/#Cert') }}" class="list-group-item-link" style="color: white !important">Certifications</a></li>
                             <li class="list-group-item"><a href="{{ url('/about') }}" class="list-group-item-link" style="color: white !important"> À propos</a></li>
                             <li class="list-group-item"><a href="{{ url('/contact') }}" class="list-group-item-link" style="color: white !important">Contact</a></li>
