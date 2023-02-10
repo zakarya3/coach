@@ -6,25 +6,27 @@
                 <div class="row">
                     <div class="offset-xl-1 col-xl-10 col-md-12 col-12">
                         <div class="pt-14 pb-12 pt-lg-16 pb-lg-14 text-center text-light">
-                            <h1 class="display-3 font-weight-bold text-white mb-2">
-                                EASY PROFESSIONAL TRAINING & CONSULTING COACHING & MENTORING
-                            </h1>
-                            <p class="px-lg-14 mb-4 lead">
-                              Poussez votre vie à un nouveau niveau. <br /> Connaissez votre valeur pour rayonner vers l’extérieur ! <br> « L’homme est ce qu’il croit » Anton Tchekhov.
-                            </p>
-                            <a href="" style="font-size: 10px" class="btn btn-primary mr-3">Conférence de Fatima Marrakech – YouTube</a>
-                            <a class="popup-youtube icon-shape rounded-circle btn-play icon-md bg-secondary text-white mr-1
-                                         text-decoration-none font-12" target="_blank" href="https://www.youtube.com/watch?v=9YU-3S7OZ58">
-                                <i class="fas fa-play"></i>
-                            </a>
-                            <a href="https://www.youtube.com/watch?v=9YU-3S7OZ58" target="_blank" class="popup-youtube text-white">Regarder la vidéo</a>
+                          <div class="cadre" style="width: 100%; padding: 20px; background-color: #f0d3cb74">
+                            <h1 class="display-3 font-weight-bold text-white mb-2" style="color: #40546e !important; font-size: 40px">
+                              EASY PROFESSIONAL TRAINING & CONSULTING COACHING & MENTORING
+                          </h1>
+                          <p class="px-lg-14 mb-4 lead" style="color: #40546e !important">
+                            Poussez votre vie à un nouveau niveau. <br /> Connaissez votre valeur pour rayonner vers l’extérieur ! <br> « L’homme est ce qu’il croit » Anton Tchekhov.
+                          </p>
+                          <a href="" style="font-size: 10px" class="btn btn-primary mr-3">Conférence de Fatima Marrakech – YouTube</a>
+                          <a class="popup-youtube icon-shape rounded-circle btn-play icon-md bg-secondary text-white mr-1
+                                        text-decoration-none font-12" target="_blank" href="https://www.youtube.com/watch?v=9YU-3S7OZ58">
+                              <i class="fas fa-play"></i>
+                          </a>
+                          <a href="https://www.youtube.com/watch?v=9YU-3S7OZ58" target="_blank" class="popup-youtube text-white">Regarder la vidéo</a>
+                          </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
             <!-- testimonails -->
-    <div class="pt-14 pb-10 top-shape " style="background:linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 102.23%), #F8F8F8;">
+    <div class="pt-14 pb-10 top-shape " style="background:linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 102.23%), #f0d3cbde;">
         <div class="container">
             <div class="row d-lg-flex align-items-center">
                 <div class="offset-lg-3 col-lg-6 col-md-12 col-12">
@@ -248,18 +250,18 @@
     <div class="bg-light left-slant-shape pt-lg-3 pb-lg-3 right-slant-shape py-5">
       <div class="row no-gutters ">
         <div class="col-md-3 col-12">
-           <img src="{{ asset('assets/images/about-me/DEBR8744.jpg') }}" alt="" class="img-fluid border-right border-white h-lg-100">
+           <img style="padding: 5px; width: 80%; border-radius: 20px" src="{{ asset('assets/images/about-me/DEBR8744.jpg') }}" alt="" class="img-fluid border-right border-white h-lg-100">
         </div>
         <div class="col-md-3 col-12">
-           <img src="{{ asset('assets/images/about-me/ASVG3636.jpg') }}" alt="" class="img-fluid border-bottom border-white h-lg-100">
-           <img src="{{ asset('assets/images/about-me/HCPJ1543 (2).jpg') }}" alt="" class="img-fluid border-bottom border-white h-lg-100 ">
+           <img style="padding: 5px; width: 80%; border-radius: 20px" src="{{ asset('assets/images/about-me/ASVG3636.jpg') }}" alt="" class="img-fluid border-bottom border-white h-lg-100">
+           <img style="padding: 5px; width: 80%; border-radius: 20px" src="{{ asset('assets/images/about-me/HCPJ1543 (2).jpg') }}" alt="" class="img-fluid border-bottom border-white h-lg-100 ">
         </div>
         <div class="col-md-3 col-12">
-           <img src="{{ asset('assets/images/about-me/UKQD5388 (1).jpg') }}" alt="" class="img-fluid border-bottom border-white h-lg-100 border-left">
-           <img src="{{ asset('assets/images/about-me/JLYB0698.jpg') }}" alt="" class="img-fluid border-bottom border-white h-lg-100 border-left">
+           <img style="padding: 5px; width: 80%; border-radius: 20px" src="{{ asset('assets/images/about-me/UKQD5388 (1).jpg') }}" alt="" class="img-fluid border-bottom border-white h-lg-100 border-left">
+           <img style="padding: 5px; width: 80%; border-radius: 20px" src="{{ asset('assets/images/about-me/JLYB0698.jpg') }}" alt="" class="img-fluid border-bottom border-white h-lg-100 border-left">
         </div>
         <div class="col-md-3 col-12">
-           <img src="{{ asset('assets/images/about-me/IMG_3864.JPG') }}" alt="" class="img-fluid border-left border-white h-lg-100">
+           <img style="padding: 5px; width: 80%; border-radius: 20px" src="{{ asset('assets/images/about-me/IMG_3864.JPG') }}" alt="" class="img-fluid border-left border-white h-lg-100">
         </div>
       </div>
     </div>
