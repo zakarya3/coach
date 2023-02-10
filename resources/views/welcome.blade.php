@@ -279,7 +279,9 @@
 vous trouver et entrer en contact.
                         </p>
                       </div>
-                      <form class="form-row">
+                      <form class="form-row" method="POST" action="{{ url('sendMail') }}">
+                        @csrf
+							          @method('PUT')
                         <div class="from-group col-md-6 col-12 mb-3">
                           <label for="fname" class="sr-only">Nom</label>
                           <input
@@ -287,7 +289,7 @@ vous trouver et entrer en contact.
                             class="form-control"
                             id="fname"
                             placeholder="Nom"
-                            name="fname"
+                            name="name"
                             required
                           />
                         </div>
@@ -298,7 +300,7 @@ vous trouver et entrer en contact.
                             class="form-control"
                             id="lname"
                             placeholder="Prenom"
-                            name="lname"
+                            name="prename"
                             required
                           />
                         </div>
@@ -313,14 +315,28 @@ vous trouver et entrer en contact.
                             required
                           />
                         </div>
+                        <div class="from-group col-12 mb-3">
+                          <label for="phone" class="sr-only"> Téléphone</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="phone"
+                            placeholder="Phone"
+                            name="phone"
+                            required
+                          />
+                        </div>
                         <div class="form-group col-12 mb-3">
                           <label for="purpose" class="sr-only">But</label>
-                          <select class="custom-select" id="purpose">
-                            <option selected>Sélectionnez l'objectif</option>
-                            <option value="1">Consulting</option>
-                            <option value="2">Training</option>
-                            <option value="3">Coaching</option>
+                          <select class="custom-select" name="but" id="purpose">
+                            <option>Sélectionnez l'objectif</option>
+                            <option value="Consulting">Consulting</option>
+                            <option value="Training">Training</option>
+                            <option value="Coaching">Coaching</option>
                           </select>
+                        </div>
+                        <div class="form-group col-12 mb-3">
+                          <textarea name="message" class="form-control" placeholder="Votre message..." id="" cols="30" rows="10"></textarea>
                         </div>
                         <div class="col-12">
                           <button type="submit" class="btn btn-primary btn-block">

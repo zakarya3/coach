@@ -26,4 +26,4 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/send', [MailController::class, 'sendMail']);
+Route::put('/sendMail', [MailController::class, 'sendMail']);

@@ -1,2 +1,5 @@
-<h1>Hi, ziko</h1>
-<p>Sending Mail from Laravel.</p>
+De : {{ $name }} {{ $prename }}
+Email : {{ $email }}
+Téléphone : {{ $phone }}
+Sujet : {{ $but }}
+{{ $message1 }}

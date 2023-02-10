@@ -7,15 +7,21 @@ use Mail;
 
 class MailController extends Controller
 {
-    public function sendMail()
+    public function sendMail(Request $request)
     {
-        $data = array('name'=>"Virat Gandhi");
+        $name = $request->name;
+        $prename = $request->prename;
+        $email = $request->email;
+        $phone = $request->phone;
+        $but = $request->but;
+        $message1 = $request->message;
+        $data = ['name' => $name, 'prename' => $prename, 'email' => $email, 'phone' => $phone, 'but' => $but, 'message1' => $message1];
    
       Mail::send(['text'=>'mail'], $data, function($message) {
-         $message->to('zakaria.aanni@gmail.com', 'Tutorials Point')->subject
-            ('Laravel Basic Testing Mail');
-         $message->from('xyz@gmail.com','Virat Gandhi');
+         $message->to('contact@epronetworks.eu')->subject
+            ('Question?');
+         $message->from('test.testing254@outlook.fr','Epronetworks');
       });
-      echo "Basic Email Sent. Check your inbox.";
+      return redirect()->back();
     }
 }
