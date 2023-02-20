@@ -75,7 +75,7 @@
               </li>
             </ul>
             <div class="header-btn ">
-              <a href="{{ url('/') }}" class="btn btn-primary btn-sm ">Lab’Oratoire</a>
+              <a href="{{ url('/formation') }}" class="btn btn-primary btn-sm ">Formation</a>
             </div>
           </div>
         </nav>

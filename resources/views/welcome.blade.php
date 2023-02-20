@@ -1,7 +1,7 @@
 @extends('layouts.navbar')
 @section('content')
         <!-- hero section -->
-        <div style="background: url({{ asset('assets/images/about-me/HSSQ1522.jpg') }}); background-size: cover; background-repeat: no-repeat; background-position: center;">
+        {{-- <div style="background: url({{ asset('assets/images/about-me/HSSQ1522.jpg') }}); background-size: cover; background-repeat: no-repeat; background-position: center;">
             <div class="container">
                 <div class="row">
                     <div class="offset-xl-1 col-xl-10 col-md-12 col-12">
@@ -24,6 +24,31 @@
               </div>
             </div>
           </div>
+        </div> --}}
+        <div class="mb-6 mb-lg-7" id="content">
+          <div class="container-fluid px-0">
+              <div class="row g-0 align-items-center revrers" style="width: 100%">
+                  <div class="col-md" data-aos="fade-right">
+                      <div class="img-shifted shift-left vh-100">
+                          <div class="bg-image bg-cover bg-position-top-center" style="width: 100%; height: 100%;"><img src="{{ asset('assets/images/about-me/WhatsApp Image 2023-02-08 at 17.54.22.jpeg') }}" style="width: 100%; height: 100%; object-fit: contain" alt=""></div>
+                      </div>
+                  </div>
+                  <div class="col-md-6 vh-100 d-flex flex-column" style="margin-top: 40px" data-aos="fade-left">
+                      <div class="px-5 px-lg-7 px-xl-9 mt-auto">
+                          <h1 class="display-3 upper-line mb-6" style="font-size: 50px; margin-top: 80px">EASY PROFESSIONAL TRAINING & CONSULTING <br> COACHING & MENTORING</h1>
+                          <a href="" style="font-size: 10px" class="btn btn-primary mr-3">Conférence de Fatima Marrakech – YouTube</a>
+                          <a class="popup-youtube icon-shape rounded-circle btn-play icon-md bg-secondary text-white mr-1
+                                        text-decoration-none font-12" target="_blank" href="https://www.youtube.com/watch?v=9YU-3S7OZ58">
+                              <i class="fas fa-play"></i>
+                          </a>
+                          <a href="https://www.youtube.com/watch?v=9YU-3S7OZ58" target="_blank" class="popup-youtube text-white">Regarder la vidéo</a>
+                      </div>
+                      <div class="bg-light px-5 px-lg-7 px-xl-9 py-5 mt-auto">
+                          <p class="fs-3 mb-0"><span class="fst-italic"> Poussez votre vie à un nouveau niveau. <br /> Connaissez votre valeur pour rayonner vers l’extérieur ! <br> « L’homme est ce qu’il croit » Anton Tchekhov.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
         </div>
             <!-- testimonails -->
     <div class="pt-14 pb-10 top-shape " style="background:linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 102.23%), #f0d3cbde;">
@@ -36,7 +61,7 @@
                 </div>
                 <div class="offset-xl-1 col-xl-4 col-lg-6 col-md-6 col-12">
                     <div class="mb-4 mb-lg-0">
-                        <img src="{{ asset('assets/images/about-me/WhatsApp Image 2023-02-08 at 17.54.22.jpeg') }}" alt="" class="img-fluid rounded" />
+                        <img src="{{ asset('assets/images/about-me/IMG_1740.JPG') }}" alt="" class="img-fluid rounded" />
                     </div>
                 </div>
                 <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-6">
@@ -49,7 +74,7 @@
 
                     </p>
                     <p class="font-14 mb-5">Fatima Zekhnini, Formatrice en stratégies d'apprentissage</p>
-                    <a href="stories.html" class="btn btn-primary">View Stories</a>
+                    <a href="{{ url('/contact') }}" class="btn btn-primary">Contactez-nous</a>
                 </div>
             </div>
         </div>
@@ -248,22 +273,108 @@
       </div>
   </div>
     <div class="bg-light left-slant-shape pt-lg-3 pb-lg-3 right-slant-shape py-5">
-      <div class="row no-gutters ">
-        <div class="col-md-3 col-12">
+      {{-- <div class="row no-gutters ">
+        <div class="col-md-3 col-12" style="display: flex; justify-content: center; align-items: center">
            <img style="padding: 5px; width: 80%; border-radius: 20px" src="{{ asset('assets/images/about-me/DEBR8744.jpg') }}" alt="" class="img-fluid border-right border-white h-lg-100">
         </div>
-        <div class="col-md-3 col-12">
+        <div class="col-md-3 col-12" style="display: flex; justify-content: center; align-items: center; flex-direction: column">
            <img style="padding: 5px; width: 80%; border-radius: 20px" src="{{ asset('assets/images/about-me/ASVG3636.jpg') }}" alt="" class="img-fluid border-bottom border-white h-lg-100">
            <img style="padding: 5px; width: 80%; border-radius: 20px" src="{{ asset('assets/images/about-me/HCPJ1543 (2).jpg') }}" alt="" class="img-fluid border-bottom border-white h-lg-100 ">
         </div>
-        <div class="col-md-3 col-12">
+        <div class="col-md-3 col-12" style="display: flex; justify-content: center; align-items: center; flex-direction: column">
            <img style="padding: 5px; width: 80%; border-radius: 20px" src="{{ asset('assets/images/about-me/UKQD5388 (1).jpg') }}" alt="" class="img-fluid border-bottom border-white h-lg-100 border-left">
            <img style="padding: 5px; width: 80%; border-radius: 20px" src="{{ asset('assets/images/about-me/JLYB0698.jpg') }}" alt="" class="img-fluid border-bottom border-white h-lg-100 border-left">
         </div>
-        <div class="col-md-3 col-12">
+        <div class="col-md-3 col-12" style="display: flex; justify-content: center; align-items: center">
            <img style="padding: 5px; width: 80%; border-radius: 20px" src="{{ asset('assets/images/about-me/IMG_3864.JPG') }}" alt="" class="img-fluid border-left border-white h-lg-100">
         </div>
+      </div> --}}
+      <!--Carousel Wrapper-->
+<div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
+
+  <!--Controls-->
+  <div class="controls-top" style="display: flex; justify-content: center">
+    <a class="black-text" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3"></i></a>
+    <a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
+  </div>
+  <!--/.Controls-->
+
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+
+    <!--First slide-->
+    <div class="carousel-item active">
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="{{ asset('assets/images/about-me/DEBR8744.jpg') }}"
+            alt="Card image cap">
+        </div>
       </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="{{ asset('assets/images/about-me/ASVG3636.jpg') }}"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="{{ asset('assets/images/about-me/HCPJ1543 (2).jpg') }}"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="{{ asset('assets/images/about-me/UKQD5388 (1).jpg') }}"
+            alt="Card image cap">
+        </div>
+      </div>
+
+    </div>
+    <!--/.First slide-->
+
+    <!--Second slide-->
+    <div class="carousel-item">
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="{{ asset('assets/images/about-me/JLYB0698.jpg') }}"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="{{ asset('assets/images/about-me/IMG_3864.JPG') }}"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="{{ asset('assets/images/about-me/HSSQ1522.jpg') }}"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="{{ asset('assets/images/about-me/IMG_3849 (2).JPG') }}"
+            alt="Card image cap">
+        </div>
+      </div>
+
+    </div>
+    <!--/.Second slide-->
+
+  </div>
+  <!--/.Slides-->
+
+</div>
+<!--/.Carousel Wrapper-->
     </div>
     <div class="py-7 pt-lg-8 pb-lg-5">
         <div class="pb-14">

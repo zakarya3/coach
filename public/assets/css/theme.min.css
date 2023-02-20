@@ -16949,10 +16949,25 @@ a.badge-light-success-soft:hover {
     outline: 0;
 }
 @media only screen and (max-width: 768px) {
+    .revrers{
+        flex-direction: column-reverse;
+        margin: 0;
+      }
     .docs-content {
         padding: 40px 0 140px 20px;
     }
 }
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+      float: left;
+      width: 25%;
+      max-width: 100%;
+    }
+  }
+  
+  .carousel-multi-item-2 .card img {
+    border-radius: 2px;
+  }
 @media only screen and (max-width: 480px) {
     .docs-nav-sidebar {
         width: 100%;
