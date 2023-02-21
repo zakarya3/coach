@@ -35,7 +35,7 @@
                   </div>
                   <div class="col-md-6 vh-100 d-flex flex-column" style="margin-top: 40px" data-aos="fade-left">
                       <div class="px-5 px-lg-7 px-xl-9 mt-auto">
-                          <h1 class="display-3 upper-line mb-6" style="font-size: 50px; margin-top: 80px">EASY PROFESSIONAL TRAINING & CONSULTING <br> COACHING & MENTORING</h1>
+                          <h1 class="display-3 upper-line mb-6" style="font-size: 40px; margin-top: 80px">EASY PROFESSIONAL TRAINING & CONSULTING <br> COACHING & MENTORING</h1>
                           <a href="" style="font-size: 10px" class="btn btn-primary mr-3">Conférence de Fatima Marrakech – YouTube</a>
                           <a class="popup-youtube icon-shape rounded-circle btn-play icon-md bg-secondary text-white mr-1
                                         text-decoration-none font-12" target="_blank" href="https://www.youtube.com/watch?v=9YU-3S7OZ58">
@@ -306,29 +306,29 @@
     <div class="carousel-item active">
 
       <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="{{ asset('assets/images/about-me/DEBR8744.jpg') }}"
+        <div class="card" style="height: 40vh;">
+          <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/DEBR8744.jpg') }}"
             alt="Card image cap">
         </div>
       </div>
 
       <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="{{ asset('assets/images/about-me/ASVG3636.jpg') }}"
+        <div class="card" style="height: 40vh;">
+          <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/ASVG3636.jpg') }}"
             alt="Card image cap">
         </div>
       </div>
 
       <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="{{ asset('assets/images/about-me/HCPJ1543 (2).jpg') }}"
+        <div class="card" style="height: 40vh;">
+          <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/HCPJ1543 (2).jpg') }}"
             alt="Card image cap">
         </div>
       </div>
 
       <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="{{ asset('assets/images/about-me/UKQD5388 (1).jpg') }}"
+        <div class="card" style="height: 40vh;">
+          <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/UKQD5388 (1).jpg') }}"
             alt="Card image cap">
         </div>
       </div>
@@ -340,29 +340,29 @@
     <div class="carousel-item">
 
       <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="{{ asset('assets/images/about-me/JLYB0698.jpg') }}"
+        <div class="card" style="height: 40vh;">
+          <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/JLYB0698.jpg') }}"
             alt="Card image cap">
         </div>
       </div>
 
       <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="{{ asset('assets/images/about-me/IMG_3864.JPG') }}"
+        <div class="card" style="height: 40vh;">
+          <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/IMG_3864.JPG') }}"
             alt="Card image cap">
         </div>
       </div>
 
       <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="{{ asset('assets/images/about-me/HSSQ1522.jpg') }}"
+        <div class="card" style="height: 40vh;">
+          <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/HSSQ1522.jpg') }}"
             alt="Card image cap">
         </div>
       </div>
 
       <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="{{ asset('assets/images/about-me/IMG_3849 (2).JPG') }}"
+        <div class="card" style="height: 40vh;">
+          <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/IMG_3849 (2).JPG') }}"
             alt="Card image cap">
         </div>
       </div>
