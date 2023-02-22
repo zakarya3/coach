@@ -32,6 +32,7 @@
                       <div class="img-shifted shift-left vh-100">
                           <div class="bg-image bg-cover bg-position-top-center" style="width: 100%; height: 100%;"><img src="{{ asset('assets/images/about-me/WhatsApp Image 2023-02-08 at 17.54.22.jpeg') }}" style="width: 100%; height: 100%; object-fit: contain" alt=""></div>
                       </div>
+                      <p style="width: 100%; text-align: center">Fatima Zekhnini <br> Conférencière Coach & Formatrice</p>
                   </div>
                   <div class="col-md-6 vh-100 d-flex flex-column" style="margin-top: 40px" data-aos="fade-left">
                       <div class="px-5 px-lg-7 px-xl-9 mt-auto">
@@ -56,7 +57,7 @@
             <div class="row d-lg-flex align-items-center">
                 <div class="offset-lg-3 col-lg-6 col-md-12 col-12">
                     <div class="mb-8 text-center">
-                        <h2 class="h1">Sur moi.</h2>
+                        <h2 class="h1">Qui suis-je</h2>
                     </div>
                 </div>
                 <div class="offset-xl-1 col-xl-4 col-lg-6 col-md-6 col-12">
@@ -86,7 +87,7 @@
                 <div class="row">
                     <div class="offset-lg-2 col-lg-8 col-md-12 col-12">
                         <div class="mb-8 text-center">
-                            <h2>Comment puis-je t'aider?</h2>
+                            <h2>cComment puis-je vous aider?</h2>
                             <p class="lead">Commencez dès maintenant avec les idées et les stratégies de Fatima Zekhnini</p>
                         </div>
                     </div>
@@ -310,6 +311,7 @@
           <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/DEBR8744.jpg') }}"
             alt="Card image cap">
         </div>
+        <p style="width: 100%; text-align: center">Master en Sciences du Travail avec Andréa Réa, faculté des sciences politiques et sociales de l'ULB</p>
       </div>
 
       <div class="col-md-3 mb-3">
@@ -317,6 +319,7 @@
           <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/ASVG3636.jpg') }}"
             alt="Card image cap">
         </div>
+        <p style="width: 100%; text-align: center"></p>
       </div>
 
       <div class="col-md-3 mb-3">
@@ -324,6 +327,7 @@
           <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/HCPJ1543 (2).jpg') }}"
             alt="Card image cap">
         </div>
+        <p style="width: 100%; text-align: center">Congrès de la Mémoire à Saint- Malo avec Olivier Lejeune</p>
       </div>
 
       <div class="col-md-3 mb-3">
@@ -331,6 +335,7 @@
           <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/UKQD5388 (1).jpg') }}"
             alt="Card image cap">
         </div>
+        <p style="width: 100%; text-align: center">Mission économique princière belge au Maroc</p>
       </div>
 
     </div>
@@ -344,6 +349,7 @@
           <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/JLYB0698.jpg') }}"
             alt="Card image cap">
         </div>
+        <p style="width: 100%; text-align: center">Notre équipe de coachs Apprendre à Apprendre, Marrakech, musée de l'Eau</p>
       </div>
 
       <div class="col-md-3 mb-3">
@@ -351,6 +357,7 @@
           <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/IMG_3864.JPG') }}"
             alt="Card image cap">
         </div>
+        <p style="width: 100%; text-align: center">Avec Yannick Alain, coach & Formateur Neuro business school</p>
       </div>
 
       <div class="col-md-3 mb-3">
@@ -358,6 +365,7 @@
           <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/HSSQ1522.jpg') }}"
             alt="Card image cap">
         </div>
+        <p style="width: 100%; text-align: center">Conférence sur le Cerveau, Marrakech</p>
       </div>
 
       <div class="col-md-3 mb-3">
@@ -365,6 +373,7 @@
           <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/IMG_3849 (2).JPG') }}"
             alt="Card image cap">
         </div>
+        <p style="width: 100%; text-align: center">Avec Nico Pène, coach formateur, spécialiste en Ennéagramme et spirale dynamique</p>
       </div>
 
     </div>
@@ -384,10 +393,9 @@
                   <div class="card mt-n12 text-center mb-12">
                     <div class="card-body p-4 p-lg-8">
                       <div class="mb-5">
-                        <h2 class="mb-3">J'aime avoir de tes nouvelles</h2>
+                        <h2 class="mb-3">Merci de prendre le temps de m’écrire</h2>
                         <p>
-                          Si vous cherchez des conseils, merci de remplir ce formulaire. Nous allons
-vous trouver et entrer en contact.
+                          Bonne journée <br> Signée “Fatima” Chercheuse Conférencière & Formatrice
                         </p>
                       </div>
                       <form class="form-row" method="POST" action="{{ url('sendMail') }}">

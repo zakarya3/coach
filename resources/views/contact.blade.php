@@ -30,10 +30,9 @@
               <div class="card mt-n12 text-center mb-12">
                 <div class="card-body p-4 p-lg-8">
                   <div class="mb-5">
-                    <h2 class="mb-3">J'aime avoir de tes nouvelles</h2>
+                    <h2 class="mb-3">Merci de prendre le temps de m’écrire</h2>
                     <p>
-                      Si vous cherchez des conseils, merci de remplir ce formulaire. Nous allons
-                      vous trouver et entrer en contact.
+                      Bonne journée <br> Signée “Fatima” Chercheuse Conférencière & Formatrice
                     </p>
                   </div>
                   <form class="form-row" method="POST" action="{{ url('sendMail') }}">
