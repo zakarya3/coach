@@ -64,7 +64,7 @@
                           EASY PROFESSIONAL TRAINING & CONSULTING COACHING & MENTORING
                         </h2>
                         <p class="mb-3 pr-lg-12 pr-0">
-                          Poussez votre vie à un nouveau niveau. <br /> Connaissez votre valeur pour rayonner vers l’extérieur ! <br> « L’homme est ce qu’il croit » Anton Tchekhov.
+                          Push your life to a new level. <br /> Connaissez votre valeur pour rayonner vers l’extérieur ! <br> « L’homme est ce qu’il croit » Anton Tchekhov.
                         </p>
                         {{-- <a href="#!" class="btn btn-primary btn-lg">Book Coach</a> --}}
                     </div>
