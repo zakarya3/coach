@@ -8690,7 +8690,7 @@ button.bg-light-success:hover {
     position: sticky !important;
 }
 .fixed-top {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     right: 0;
     left: 0;
@@ -17006,15 +17006,15 @@ a.badge-light-success-soft:hover {
     }
 }
 .header {
-    background-color: white;
+    background-color: #fff;
     z-index: 999;
 }
 .header .navbar-brand {
     padding-top: 0;
 }
-.header .navbar-default.navbar {
+/* .header .navbar-default.navbar {
     padding: 18px 0;
-}
+} */
 .header .navbar-default.navbar .navbar-toggler:focus {
     outline: 0;
 }

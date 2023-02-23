@@ -25,7 +25,7 @@
             </div>
           </div>
         </div> --}}
-        <div class="mb-6 mb-lg-7" id="content">
+        {{-- <div class="mb-6 mb-lg-7" id="content">
           <div class="container-fluid px-0">
               <div class="row g-0 align-items-center revrers" style="width: 100%">
                   <div class="col-md" data-aos="fade-right">
@@ -50,7 +50,28 @@
                   </div>
               </div>
           </div>
+        </div> --}}
+        <div class="py-lg-16 pt-14 pb-10 bg-cover" style="background-image:linear-gradient(180deg, rgba(30, 24, 53, 0.4) 0%, rgba(30, 24, 53, 0.4) 90.16%),
+      url({{ asset('assets/images/about-me/image.jpeg') }});">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-7 col-md-8 col-12">
+                    <div class="text-white">
+                        <h1 class="text-white mb-3 display-3">
+                          Fatima Zekhnini.
+                        </h1>
+                        <h2 class="mb-3 text-white">
+                          EASY PROFESSIONAL TRAINING & CONSULTING COACHING & MENTORING
+                        </h2>
+                        <p class="mb-3 pr-lg-12 pr-0">
+                          Poussez votre vie à un nouveau niveau. <br /> Connaissez votre valeur pour rayonner vers l’extérieur ! <br> « L’homme est ce qu’il croit » Anton Tchekhov.
+                        </p>
+                        {{-- <a href="#!" class="btn btn-primary btn-lg">Book Coach</a> --}}
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
             <!-- testimonails -->
     <div class="pt-14 pb-10 top-shape " style="background:linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 102.23%), #f0d3cbde;">
         <div class="container">
@@ -87,7 +108,7 @@
                 <div class="row">
                     <div class="offset-lg-2 col-lg-8 col-md-12 col-12">
                         <div class="mb-8 text-center">
-                            <h2>cComment puis-je vous aider?</h2>
+                            <h2>Comment puis-je vous aider?</h2>
                             <p class="lead">Commencez dès maintenant avec les idées et les stratégies de Fatima Zekhnini</p>
                         </div>
                     </div>
@@ -378,6 +399,44 @@
 
     </div>
     <!--/.Second slide-->
+
+    <!--Thitd slide-->
+    <div class="carousel-item">
+
+      <div class="col-md-3 mb-3">
+        <div class="card" style="height: 40vh;">
+          <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/HXXH5474.jpg') }}"
+            alt="Card image cap">
+        </div>
+        <p style="width: 100%; text-align: center">Avec Nisrine Kannouf mon amie et coach de vie pluridisciplinaire</p>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card" style="height: 40vh;">
+          <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/IMG_1740.JPG') }}"
+            alt="Card image cap">
+        </div>
+        <p style="width: 100%; text-align: center">Avec Yannick Alain, coach & Formateur Neuro business school</p>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card" style="height: 40vh;">
+          <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/IMG_1745.JPG') }}"
+            alt="Card image cap">
+        </div>
+        <p style="width: 100%; text-align: center">Avec mon coach en Soft skills, Jérôme Hoarau, Business school Paris</p>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card" style="height: 40vh;">
+          <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/IMG_1487.JPG') }}"
+            alt="Card image cap">
+        </div>
+        <p style="width: 100%; text-align: center">Avec Michel Wozniak, coach, formateur, représentant de Tony Buzan, Mind Mapping & Richard Bandler, PNL , Paris</p>
+      </div>
+
+    </div>
+    <!--/.Thitd slide-->
 
   </div>
   <!--/.Slides-->
