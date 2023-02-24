@@ -87,7 +87,7 @@
                     </div>
                 </div>
                 <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-6">
-                    <i class="fas fa-quote-left font-28 text-secondary mb-5"></i>
+                    <i class="fas fa-quote-left font-28 text-secondary mb-5"> Fatima Zekhnini</i>
                     <p class="h2 font-dm-serif font-italic font-weight-normal mb-3" style="font-size: 20px">
                         <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Pluriactive & pluridisciplinaire, je puise mon énergie dans l’intergénérationnel, le multiculturalisme et la diversité. <br>
                         <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Mon driver est la recherche perpétuelle de l’équilibre entre les différentes sphères de la vie, perso, santé, pro, famille et spirituelle au service de la réalisation professionnelle. <br>
@@ -416,7 +416,7 @@
           <img class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" src="{{ asset('assets/images/about-me/IMG_1740.JPG') }}"
             alt="Card image cap">
         </div>
-        <p style="width: 100%; text-align: center">Avec Yannick Alain, coach & Formateur Neuro business school</p>
+        <p style="width: 100%; text-align: center">Neuro business School, Paris</p>
       </div>
 
       <div class="col-md-3 mb-3">
@@ -453,9 +453,7 @@
                     <div class="card-body p-4 p-lg-8">
                       <div class="mb-5">
                         <h2 class="mb-3">Merci de prendre le temps de m’écrire</h2>
-                        <p>
-                          Bonne journée <br> Signée “Fatima” Chercheuse Conférencière & Formatrice
-                        </p>
+                        <p>Si vous cherchez des conseils, merci de remplir ce formulaire. Nous allons vous trouver et entrer en contact.</p>
                       </div>
                       <form class="form-row" method="POST" action="{{ url('sendMail') }}">
                         @csrf
@@ -522,6 +520,9 @@
                           </button>
                         </div>
                       </form>
+                      <p style="margin-top: 30px">
+                        Bonne journée <br> “Fatima Zekhnini” Chercheuse Conférencière & Formatrice
+                      </p>
                     </div>
                   </div>
                   <!-- contact info -->

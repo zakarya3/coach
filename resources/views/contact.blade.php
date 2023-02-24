@@ -31,9 +31,7 @@
                 <div class="card-body p-4 p-lg-8">
                   <div class="mb-5">
                     <h2 class="mb-3">Merci de prendre le temps de m’écrire</h2>
-                    <p>
-                      Bonne journée <br> Signée “Fatima” Chercheuse Conférencière & Formatrice
-                    </p>
+                    <p>Si vous cherchez des conseils, merci de remplir ce formulaire. Nous allons vous trouver et entrer en contact.</p>
                   </div>
                   <form class="form-row" method="POST" action="{{ url('sendMail') }}">
                     @csrf
@@ -100,6 +98,9 @@
                       </button>
                     </div>
                   </form>
+                  <p style="margin-top: 30px">
+                    Bonne journée <br> “Fatima Zekhnini” Chercheuse Conférencière & Formatrice
+                  </p>
                 </div>
               </div>
               <!-- contact info -->
