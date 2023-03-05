@@ -57,21 +57,139 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-7 col-md-8 col-12">
                     <div class="text-white">
-                        <h1 class="text-white mb-3 display-3">
-                          Fatima Zekhnini.
-                        </h1>
-                        <h2 class="mb-3 text-white">
+                        <h1 class="text-white mb-3 display-3" style="font-weight: 300">
                           EASY PROFESSIONAL TRAINING & CONSULTING COACHING & MENTORING
-                        </h2>
-                        <p class="mb-3 pr-lg-12 pr-0">
+                        </h1>
+                        {{-- <p class="mb-3 pr-lg-12 pr-0">
                           Push your life to a new level. <br /> Connaissez votre valeur pour rayonner vers l’extérieur ! <br> « L’homme est ce qu’il croit » Anton Tchekhov.
-                        </p>
+                        </p> --}}
                         {{-- <a href="#!" class="btn btn-primary btn-lg">Book Coach</a> --}}
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="pt-14 pb-10 top-shape " style="background:linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 102.23%), #f0d3cbde;">
+      <div class="container">
+          <div class="row d-lg-flex align-items-center">
+              <div class="offset-lg-3 col-lg-6 col-md-12 col-12">
+                <div class="mb-8 text-center">
+                  <h2 class="h3">Connaissez votre valeur pour rayonner vers l’extérieur ! <br> « L’homme est ce qu’il croit » Anton Tchekhov.</h2>
+              </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="bg-light left-slant-shape pt-lg-3 pb-lg-3 right-slant-shape py-5">
+    <div class="container">
+        <div class="row">
+            <div class="offset-lg-1 col-lg-10 col-md-12 col-12">
+                <!-- program thumbnail -->
+                <div class="card mb-4 mt-n8 border-0" id="#mission">
+                    <div class="row no-gutters ">
+                        <div class="col-12 col-md-6 rounded-left bg-cover " style="background-image: url({{ asset('assets/images/about-me/IMG_1740.JPG') }}); ">
+                            <img src="{{ asset('assets/images/about-me/IMG_1740.JPG') }}" class=" img-fluid d-md-none invisible" alt="" />
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12 ">
+                            <div class="card-body p-6 border-top border-primary rounded-right border-top-4">
+                            <h2 class="mb-3">Notre mission</h2>
+                        <ul class="list-unstyled mb-4">
+                        <li>
+                            <i
+                            class="fas fa-check-circle mr-2 text-primary font-12"
+                            ></i
+                            >A travers mon expertise, mes expériences du terrain ainsi que mon parcours de vie, je vous propose de vous connecter à la personne qui pourra vous accompagner au mieux et vous aider à évoluer dans la bienveillance tout en vous challengeant.
+                        </li>
+                        <li>
+                            <i
+                            class="fas fa-check-circle mr-2 text-primary font-12"
+                            ></i
+                            >Mon équipe composée d’un réseau de coachs de renommée internationale est à votre disposition.
+                        </li>
+                        <li>
+                            <i
+                            class="fas fa-check-circle mr-2 text-primary font-12"
+                            ></i
+                            >Mon rôle à travers une première séance que nous ferons ensemble en visio ou en présentiel à votre guise, est de vous trouver le coach qui matchera avec votre personnalité et vos attentes.
+                        </li>
+                        <li>
+                            <i
+                            class="fas fa-check-circle mr-2 text-primary font-12"
+                            ></i
+                            >Je mettrai mes capacités d’écoute, d’analyse , d’évaluation à votre service.
+                        </li>
+                        <li>
+                            <i
+                            class="fas fa-check-circle mr-2 text-primary font-12"
+                            ></i
+                            >Mon profil pluridisciplinaire me permet d’avoir une vision globale de différents domaines tel que la formation, l’éducation, l’enseignement, le travail et ses différents aspects ainsi que mon expertise pointue de l’humain à travers les neurosciences appliquées, la thérapie ACT que je mettrai volontiers à votre service.
+                        </li>
+                        </ul>
+                        {{-- <a href="#!" class="btn btn-outline-primary">Learn More</a> --}}
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- program thumbnail -->
+                <div class="card mb-n4 z-index-1 border-0">
+                <div class="row no-gutters">
+                    <div class="col-lg-6 col-md-6 col-12">
+                    <div
+                        class="card-body p-6 border-top border-primary rounded-left border-top-4"
+                    >
+                    <h2 class="mb-3">Certifications</h2>
+                                <ul class="list-unstyled mb-4">
+                                    <li style="font-weight: 600">
+                                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> <b>Passion d'apprendre</b>
+                                        <ul>
+                                            <li>Coach certifié  Stratégies d'apprentissages</li>
+                                            <li><a href="https://la-semaine.com/p-marrakech_2018" target="_blank"> https://la-semaine.com/p-marrakech_2018</a></li>
+                                            <li>Co-Auteure de « La boîte à outils du cerveau pour les parents », Paris, France, 2018</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> <b>Neuro Business School</b>
+                                        <ul>
+                                            <li>Application des Neurosciences à l’apprentissage</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> <b>Institut Européen</b>
+                                        <ul>
+                                          <li>Interuniversitaire de l'Action Sociale</li>
+                                          <li>Certificat Européen de Formation Universitaire en Ingénierie Sociale</li>
+                                          <li>Chargée d’études Université de Florence et Université du Luxembourg</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> <b>Université libre de Bruxelles</b>
+                                        <ul>
+                                            <li>Master's degree Sciences du Travail spécialisation en gestion de la formation et de la transition professionnelle</li>
+                                            <li>Conseillère en Insertion Socioprofessionnelle, bachelor IRG, Bruxelles</li>
+                                            <li>Commerce & Marketing  International, bachelor EPHEC, Bruxelles</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            {{-- <a href="#!" class="btn btn-outline-primary">Learn More</a> --}}
+                        
+                    </div>
+                    </div>
+                    <div
+                    class="col-12 col-md-6 rounded-right bg-cover"
+                    style="background-image: url({{ asset('assets/images/about-me/IMG_1487.JPG') }}); "
+                    >
+                    <img
+                        src="{{ asset('assets/images/about-me/IMG_1487.JPG') }}"
+                        class="img-fluid d-md-none invisible"
+                        alt=""
+                    />
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
             <!-- testimonails -->
     <div class="pt-14 pb-10 top-shape " style="background:linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 102.23%), #f0d3cbde;">
         <div class="container">
@@ -83,11 +201,10 @@
                 </div>
                 <div class="offset-xl-1 col-xl-4 col-lg-6 col-md-6 col-12">
                     <div class="mb-4 mb-lg-0">
-                        <img src="{{ asset('assets/images/about-me/IMG_1740.JPG') }}" alt="" class="img-fluid rounded" />
+                        <img src="{{ asset('assets/images/about-me/IMG_1737.JPG') }}" alt="" class="img-fluid rounded" />
                     </div>
                 </div>
                 <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-6">
-                    <i class="fas fa-quote-left font-28 text-secondary mb-5"> Fatima Zekhnini</i>
                     <p class="h2 font-dm-serif font-italic font-weight-normal mb-3" style="font-size: 20px">
                         <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Pluriactive & pluridisciplinaire, je puise mon énergie dans l’intergénérationnel, le multiculturalisme et la diversité. <br>
                         <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Mon driver est la recherche perpétuelle de l’équilibre entre les différentes sphères de la vie, perso, santé, pro, famille et spirituelle au service de la réalisation professionnelle. <br>
@@ -95,8 +212,7 @@
                         <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Mon kif-job est l’accompagnement au développement de vos compétences transversales, la valorisation de vos parcours et surtout le déploiement de votre singularité. <br>
 
                     </p>
-                    <p class="font-14 mb-5">Fatima Zekhnini, Formatrice en stratégies d'apprentissage</p>
-                    <a href="{{ url('/contact') }}" class="btn btn-primary">Contactez-nous</a>
+                    <p class="font-14 mb-5">Fatima Zekhnini, Chercheuse Conférencière & Formatrice</p>
                 </div>
             </div>
         </div>
@@ -108,8 +224,8 @@
                 <div class="row">
                     <div class="offset-lg-2 col-lg-8 col-md-12 col-12">
                         <div class="mb-8 text-center">
-                            <h2>Comment puis-je vous aider?</h2>
-                            <p class="lead">Commencez dès maintenant avec les idées et les stratégies de Fatima Zekhnini</p>
+                            <h2>Comment vous aider?</h2>
+                            {{-- <p class="lead">Commencez dès maintenant avec les idées et les stratégies de Fatima Zekhnini</p> --}}
                         </div>
                     </div>
                 </div>
@@ -119,7 +235,6 @@
                         <div class="card-body">
                             <h5 class="card-title">Consulting</h5>
                             <p class="card-text">Consulting en  gestion de la formation : analyse des besoins en formation – évaluation de la formation et des formateurs.</p>
-                            <a href="{{ url('/contact') }}" class="btn btn-primary">Contactez-nous</a>
                         </div>
                         </div>
                     </div>
@@ -128,7 +243,6 @@
                         <div class="card-body">
                             <h5 class="card-title">Training</h5>
                             <p class="card-text">Training en soft skills – stratégies d’apprentissage – formation de formateur.</p>
-                            <a href="{{ url('/contact') }}" class="btn btn-primary">Contactez-nous</a>
                         </div>
                         </div>
                     </div>
@@ -140,7 +254,6 @@
                         <div class="card-body">
                             <h5 class="card-title">Coaching</h5>
                             <p class="card-text">Coaching en transition professionnelle - auto-apprentissage.</p>
-                            <a href="{{ url('/contact') }}" class="btn btn-primary">Contactez-nous</a>
                         </div>
                         </div>
                     </div>
@@ -149,7 +262,6 @@
                         <div class="card-body">
                             <h5 class="card-title">Co-working & mentoring</h5>
                             <p class="card-text">Co-working & mentoring   space for women in business.</p>
-                            <a href="{{ url('/contact') }}" class="btn btn-primary">Contactez-nous</a>
                         </div>
                         </div>
                     </div>
@@ -166,116 +278,6 @@
                         <h2 class="mb-3 h1">
                           Découvrez les programmes de coaching de vie
                         </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="bg-light left-slant-shape pt-lg-3 pb-lg-3 right-slant-shape py-5">
-        <div class="container">
-            <div class="row">
-                <div class="offset-lg-1 col-lg-10 col-md-12 col-12">
-                    <!-- program thumbnail -->
-                    <div class="card mb-4 mt-n8 border-0">
-                        <div class="row no-gutters ">
-                            <div class="col-12 col-md-6 rounded-left bg-cover " style="background-image: url({{ asset('assets/images/about-me/IMG_4699.PNG') }}); ">
-                                <img src="{{ asset('assets/images/about-me/IMG_4699.PNG') }}" class=" img-fluid d-md-none invisible" alt="" />
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-12 ">
-                                <div class="card-body p-6 border-top border-primary rounded-right border-top-4">
-                                    <h2 class="mb-3">Certifications</h2>
-                                    <ul class="list-unstyled mb-4">
-                                        <li style="font-weight: 600">
-                                            <i class="fas fa-check-circle mr-2 text-primary font-12"></i> <b>Passion d'apprendre</b>
-                                            <ul>
-                                                <li>Coach certifié  Stratégies d'apprentissages</li>
-                                                <li><a href="https://la-semaine.com/p-marrakech_2018" target="_blank"> https://la-semaine.com/p-marrakech_2018</a></li>
-                                                <li>Co-Auteure de « La boîte à outils du cerveau pour les parents », Paris, France, 2018</li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-check-circle mr-2 text-primary font-12"></i> <b>Neuro Business School</b>
-                                            <ul>
-                                                <li>Application des Neurosciences à l’apprentissage</li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-check-circle mr-2 text-primary font-12"></i> <b>Institut Européen</b>
-                                            <ul>
-                                              <li>Interuniversitaire de l'Action Sociale</li>
-                                              <li>Certificat Européen de Formation Universitaire en Ingénierie Sociale</li>
-                                              <li>Chargée d’études Université de Florence et Université du Luxembourg</li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-check-circle mr-2 text-primary font-12"></i> <b>Université libre de Bruxelles</b>
-                                            <ul>
-                                                <li>Master's degree Sciences du Travail spécialisation en gestion de la formation et de la transition professionnelle</li>
-                                                <li>Conseillère en Insertion Socioprofessionnelle, bachelor IRG, Bruxelles</li>
-                                                <li>Commerce & Marketing  International, bachelor EPHEC, Bruxelles</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                <a href="#!" class="btn btn-outline-primary">Learn More</a>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- program thumbnail -->
-                    <div class="card mb-n4 z-index-1 border-0">
-                    <div class="row no-gutters">
-                        <div class="col-lg-6 col-md-6 col-12">
-                        <div
-                            class="card-body p-6 border-top border-primary rounded-left border-top-4"
-                        >
-                            <h2 class="mb-3">Notre mission</h2>
-                            <ul class="list-unstyled mb-4">
-                            <li>
-                                <i
-                                class="fas fa-check-circle mr-2 text-primary font-12"
-                                ></i
-                                >A travers mon expertise, mes expériences du terrain ainsi que mon parcours de vie, je vous propose de vous connecter à la personne qui pourra vous accompagner au mieux et vous aider à évoluer dans la bienveillance tout en vous challengeant.
-                            </li>
-                            <li>
-                                <i
-                                class="fas fa-check-circle mr-2 text-primary font-12"
-                                ></i
-                                >Mon équipe composée d’un réseau de coachs de renommée internationale est à votre disposition.
-                            </li>
-                            <li>
-                                <i
-                                class="fas fa-check-circle mr-2 text-primary font-12"
-                                ></i
-                                >Mon rôle à travers une première séance que nous ferons ensemble en visio ou en présentiel à votre guise, est de vous trouver le coach qui matchera avec votre personnalité et vos attentes.
-                            </li>
-                            <li>
-                                <i
-                                class="fas fa-check-circle mr-2 text-primary font-12"
-                                ></i
-                                >Je mettrai mes capacités d’écoute, d’analyse , d’évaluation à votre service.
-                            </li>
-                            <li>
-                                <i
-                                class="fas fa-check-circle mr-2 text-primary font-12"
-                                ></i
-                                >Mon profil pluridisciplinaire me permet d’avoir une vision globale de différents domaines tel que la formation, l’éducation, l’enseignement, le travail et ses différents aspects ainsi que mon expertise pointue de l’humain à travers les neurosciences appliquées, la thérapie ACT que je mettrai volontiers à votre service.
-                            </li>
-                            </ul>
-                            <a href="#!" class="btn btn-outline-primary">Learn More</a>
-                        </div>
-                        </div>
-                        <div
-                        class="col-12 col-md-6 rounded-right bg-cover"
-                        style="background-image: url({{ asset('assets/images/about-me/IMG_1487.JPG') }}); "
-                        >
-                        <img
-                            src="{{ asset('assets/images/about-me/IMG_1487.JPG') }}"
-                            class="img-fluid d-md-none invisible"
-                            alt=""
-                        />
-                        </div>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -453,7 +455,7 @@
                     <div class="card-body p-4 p-lg-8">
                       <div class="mb-5">
                         <h2 class="mb-3">Merci de prendre le temps de m’écrire</h2>
-                        <p>Si vous cherchez des conseils, merci de remplir ce formulaire. Nous allons vous trouver et entrer en contact.</p>
+                        <p>Si vous cherchez des conseils, merci de remplir ce formulaire.</p>
                       </div>
                       <form class="form-row" method="POST" action="{{ url('sendMail') }}">
                         @csrf
@@ -521,7 +523,7 @@
                         </div>
                       </form>
                       <p style="margin-top: 30px">
-                        Bonne journée <br> “Fatima Zekhnini” Chercheuse Conférencière & Formatrice
+                        Bonne journée <br> “Fatima Zekhnini” <br> Chercheuse Conférencière & Formatrice
                       </p>
                     </div>
                   </div>
@@ -529,13 +531,11 @@
                   <div class="row">
                     <div class="col-lg-4 col-md-4 col-12">
                       <div class="text-center">
-                        <h4 class="h5 mb-3">Speaking inquiries:</h4>
                         <p class="text-danger font-weight-bold">+212 604 920 937 <br> +32 484 965 402</p>
                       </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                       <div class="text-center">
-                        <h4 class="h5 mb-3">Business inquiries:</h4>
                         <a href="#!" class="text-danger font-weight-bold"
                           >contact@epronetworks.eu</a
                         >
@@ -543,7 +543,6 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                       <div class="text-center">
-                        <h4 class="h5 mb-3">Press Contact:</h4>
                         <a href="#!" class="text-danger font-weight-bold"
                           >F.zekhnini@epronetworks.eu
                         </a>

@@ -54,20 +54,41 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ url('/#help') }}">
-                  Comment puis-je vous aider?
+                <a class="nav-link" href="{{ url('/#mission') }}">
+                 Mission
                 </a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="{{ url('/#help') }}">
+                  Comment vous aider?
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown +
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Consulting</a>
+                  <a class="dropdown-item" href="#">Training</a>
+                  <a class="dropdown-item" href="#">Coaching</a>
+                  <a class="dropdown-item" href="#">Co-working</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url('/') }}">
+                  Life solution provider 
+                </a>
+              </li>
+              {{-- <li class="nav-item">
                 <a class="nav-link" href="{{ url('/#Cert') }}">
                   Certifications
                 </a>
-              </li>
-              <li class="nav-item">
+              </li> --}}
+              {{-- <li class="nav-item">
                 <a class="nav-link" href="{{ url('/about') }}">
                   À propos
                 </a>
-              </li>
+              </li> --}}
               <li class="nav-item">
                 <a class="nav-link" href="{{ url('/contact') }}">
                   Contact

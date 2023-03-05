@@ -9,7 +9,7 @@
               rgba(30, 24, 53, 0.4) 0%,
               rgba(30, 24, 53, 0.4) 90.16%
             ),
-            url({{ asset('assets/images/about-me/HXXH5474.jpg') }});
+            url({{ asset('assets/images/about-me/XIFA4723.jpg') }});
         "
       >
         <div class="container">
@@ -31,7 +31,7 @@
                 <div class="card-body p-4 p-lg-8">
                   <div class="mb-5">
                     <h2 class="mb-3">Merci de prendre le temps de m’écrire</h2>
-                    <p>Si vous cherchez des conseils, merci de remplir ce formulaire. Nous allons vous trouver et entrer en contact.</p>
+                    <p>Si vous cherchez des conseils, merci de remplir ce formulaire.</p>
                   </div>
                   <form class="form-row" method="POST" action="{{ url('sendMail') }}">
                     @csrf
@@ -99,7 +99,7 @@
                     </div>
                   </form>
                   <p style="margin-top: 30px">
-                    Bonne journée <br> “Fatima Zekhnini” Chercheuse Conférencière & Formatrice
+                    Bonne journée <br> “Fatima Zekhnini” <br> Chercheuse Conférencière & Formatrice
                   </p>
                 </div>
               </div>
@@ -107,13 +107,11 @@
               <div class="row">
                 <div class="col-lg-4 col-md-4 col-12">
                   <div class="text-center">
-                    <h4 class="h5 mb-3">Speaking inquiries:</h4>
                     <p class="text-danger font-weight-bold">+212 604 920 937 <br> +32 484 965 402</p>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-12">
                   <div class="text-center">
-                    <h4 class="h5 mb-3">Business inquiries:</h4>
                     <a href="#!" class="text-danger font-weight-bold"
                       >contact@epronetworks.eu</a
                     >
@@ -121,7 +119,6 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-12">
                   <div class="text-center">
-                    <h4 class="h5 mb-3">Press Contact:</h4>
                     <a href="#!" class="text-danger font-weight-bold"
                       >F.zekhnini@epronetworks.eu
                     </a>
