@@ -8,6 +8,10 @@
     font-weight: 400;
     font-style: normal;
 }
+@font-face {
+    font-family: HaloHandle;
+    src: url('HaloHandletter.otf');
+}
 .fe {
     font-family: Feather !important;
     speak: none;
@@ -1481,7 +1485,7 @@ pre code {
 }
 
 .col-sm-6 .myCard{
-    height: 85vh;
+    height: 90vh;
 }
 .col {
     flex-basis: 0;

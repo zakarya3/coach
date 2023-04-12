@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-12">
           <div class="py-lg-14 py-12  mb-3">
-            <h1 class="h2 text-white">Mes formation</h1>
+            <h1 class="h2 text-white">Mes formations</h1>
           </div>
         </div>
       </div>

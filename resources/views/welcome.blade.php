@@ -86,7 +86,7 @@
                             <i
                             class="fas fa-check-circle mr-2 text-primary font-12"
                             ></i
-                            >Vous avez constaté que nous évoluons dans un monde en perpétuel changement où l’équilibre entre la vie privé et la professionnelle est un challenge permanent.
+                            >Vous avez constaté que nous évoluons dans un monde en perpétuel changement où l’équilibre entre la vie privé et professionnelle est un challenge permanent.
                         </li>
                         <li>
                             <i
@@ -104,13 +104,13 @@
                             <i
                             class="fas fa-check-circle mr-2 text-primary font-12"
                             ></i
-                            >A votre disposition, une équipe de coaches à renommée internationale, collaborant à l’atteinte de vos objectifs.
+                            >A votre disposition, une équipe de coachs à renommée internationale, collaborant à l’atteinte de vos objectifs.
                         </li>
                         <li>
                             <i
                             class="fas fa-check-circle mr-2 text-primary font-12"
                             ></i
-                            >Nous sommes des facilitateurs d’apprentissage écologique et d’adaptation au changement.
+                            >Nous sommes facilitateurs d’apprentissage écologique et d’adaptation au changement.
                         </li>
                         </ul>
                         {{-- <a href="#!" class="btn btn-outline-primary">Learn More</a> --}}
@@ -119,7 +119,7 @@
                     </div>
                 </div>
                 <!-- program thumbnail -->
-                <div class="card mb-n4 z-index-1 border-0">
+                <div class="card mb-n4 z-index-1 border-0" id="Cert">
                 <div class="row no-gutters">
                     <div class="col-lg-6 col-md-6 col-12">
                     <div
@@ -163,7 +163,7 @@
                     </div>
                     <div
                     class="col-12 col-md-6 rounded-right bg-cover"
-                    style="background-image: url({{ asset('assets/images/about-me/IMG_1487.JPG') }}); "
+                    style="background-size: contain;background-image: url({{ asset('assets/images/about-me/IMG_1487.JPG') }})"
                     >
                     <img
                         src="{{ asset('assets/images/about-me/IMG_1487.JPG') }}"
@@ -194,8 +194,7 @@
                 <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-6">
                     <p class="h2 font-dm-serif font-italic font-weight-normal mb-3" style="font-size: 18px">
                         <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Je suis Fatima Zekhnini, spécialiste de la transition professionnelle. Chercheure, conférencière, formatrice et co-auteure. <br>
-                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Pluriactive et pluridisciplinaire <a style="color: black" target="_blank" href="https://la-semaine.com/p-marrakech_2018
-                        ">(https://la-semaine.com/p-marrakech_2018)
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Pluriactive et pluridisciplinaire <a style="color: black" href="{{ url('/#Cert') }}">(liens vers certifications)
                       </a>, je puise mon énergie dans l’intergénérationnel, le multiculturalisme et la diversité. <br>
                         <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Grande passionnée du potentiel humain, du dépassement de soi et de montage de projets ambitieux, j’aborde l’Humain et ses modes de fonctionnement à travers différentes approches scientifiques (neurosciences appliquées, théorie d’acceptation et d’engagement…) et expérientielles (Techniques d’apprentissage efficace, intelligences multiples…). <br>
                         <i class="fas fa-check-circle mr-2 text-primary font-12"></i> J’œuvre dans le domaine de l’accompagnement depuis plus de 10 ans. <br>
@@ -206,9 +205,10 @@
                         valorisation de votre parcours et au déploiement de votre singularité. <br>
                         <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Ma mission est de contribuer à votre mieux-être, à ce que vous soyez le leader dans chaque domaine de votre vie,
                         spirituel, familial, relationnel, financier et santé au service de votre réalisation professionnelle. <br>
-
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i>Développez votre potentiel pour vivre une vie harmonieuse ! <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i>Je vous invite à parcourir nos différents angles d’intervention. <br>
+                        <span style="font-family: HaloHandle; font-size: 28px">Pour &nbsp;  cela,&nbsp;  je &nbsp;  vous &nbsp;  invite &nbsp;  Fatima &nbsp;  Zekhnini, &nbsp; <br> chercheure, &nbsp; conférencière, &nbsp; coach &nbsp;  formatrice.</span>
                     </p>
-                    {{-- <p class="font-14 mb-5">Développez votre potentiel pour vivre une vie harmonieuse! <br>Je vous invite à parcourir nos différents angles d’intervention <br> Fatima Zekhnini, Chercheuse Conférencière & Formatrice</p> --}}
                 </div>
             </div>
         </div>
@@ -245,11 +245,11 @@
                         <div class="card bg-secondary myCard">
                         <div class="card-body">
                             <h5 class="card-title" style="color: #f0d3cb">Training</h5>
-                            <p class="card-text" style="color: #f0d3cb">Notre objectif est de vous offrir des parcours de formation à valeur ajoutée c’est pour cela que nous créons les contenus de
+                            <p class="card-text" style="color: #f0d3cb">Notre objectif est de vous offrir des parcours de formation à valeur ajoutée. C’est pour cela que nous créons les contenus de
                               formation en tant réel avec vous.</p>
                             <p class="card-text" style="color: #f0d3cb">Nos axes d’intervention : <br> Conseil en recrutement/sélection/évaluation <br> Intégration et adaptation au changement sur le lieu de travail
                             <br> Stratégies d’apprentissage <br> Communication & Leadership <br>Développement personnel <br> Organisation et animation de conférences/séminaires/workshops</p>
-                            <p class="card-text" style="color: #f0d3cb">Notre but est votre montée en compétences pour faciliter les transitions de vie & professionnelles. <br>
+                            <p class="card-text" style="color: #f0d3cb">Notre but est votre montée en compétences pour faciliter les transitions de vie tant personnelle que professionnelles. <br>
                               Notre approche est holistique et expérientielle.</p>
                         </div>
                         </div>
