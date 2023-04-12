@@ -194,8 +194,10 @@
                 <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-6">
                     <p class="h2 font-dm-serif font-italic font-weight-normal mb-3" style="font-size: 18px">
                         <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Je suis Fatima Zekhnini, spécialiste de la transition professionnelle. Chercheure, conférencière, formatrice et co-auteure. <br>
-                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Pluriactive et pluridisciplinaire (lien vers certifications), je puise mon énergie dans l’intergénérationnel, le multiculturalisme et la diversité. <br>
-                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Grande passionnée du potentiel humain, du dépassement de soi et de montage de projets ambitieux. J’aborde l’Humain et ses modes de fonctionnement à travers différentes approches scientifiques (neurosciences appliquées, théorie d’acceptation et d’engagement…) et expérientielles (Techniques d’apprentissage efficace, intelligences multiples…). <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Pluriactive et pluridisciplinaire <a style="color: black" target="_blank" href="https://la-semaine.com/p-marrakech_2018
+                        ">(https://la-semaine.com/p-marrakech_2018)
+                      </a>, je puise mon énergie dans l’intergénérationnel, le multiculturalisme et la diversité. <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Grande passionnée du potentiel humain, du dépassement de soi et de montage de projets ambitieux, j’aborde l’Humain et ses modes de fonctionnement à travers différentes approches scientifiques (neurosciences appliquées, théorie d’acceptation et d’engagement…) et expérientielles (Techniques d’apprentissage efficace, intelligences multiples…). <br>
                         <i class="fas fa-check-circle mr-2 text-primary font-12"></i> J’œuvre dans le domaine de l’accompagnement depuis plus de 10 ans. <br>
                         <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Maman de 3 enfants, double culture belgo-marocaine et une vie atypique pleine de défis tant personnels que professionnels. <br>
                         <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Mon parcours de vie m’a permis de développer des forces comportementales telles que l’adaptabilité constante, la
@@ -206,7 +208,7 @@
                         spirituel, familial, relationnel, financier et santé au service de votre réalisation professionnelle. <br>
 
                     </p>
-                    <p class="font-14 mb-5">Développez votre potentiel pour vivre une vie harmonieuse! <br>Je vous invite à parcourir nos différents angles d’intervention <br> Fatima Zekhnini, Chercheuse Conférencière & Formatrice</p>
+                    {{-- <p class="font-14 mb-5">Développez votre potentiel pour vivre une vie harmonieuse! <br>Je vous invite à parcourir nos différents angles d’intervention <br> Fatima Zekhnini, Chercheuse Conférencière & Formatrice</p> --}}
                 </div>
             </div>
         </div>
@@ -231,11 +233,11 @@
                             <p class="card-text" style="color: #40546e">Les savoir-être comportementaux communément appelés soft skills sont des compétences comportementales et
                               transversales essentielles à développer pour performer dans son travail et être efficient. <br> Chez Epronetworks, c’est notre domaine d’expertise. Nous œuvrons à ce que vous, votre équipe, vos collaborateurs
                               développent les soft skills qui permettent de s’adapter aux changements.</p>
-                            <p class="card-text" style="color: #40546e">Nous analysons votre demande et vos besoins en formation <br> Nous travaillons sur la conception de solutions réalistes et opérationnelles à travers un processus itératif et collaboratif
-                            <br> <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Qualifions les besoins de compétences - concevons les étapes et les formats de formation – adaptons la formation
+                            <p class="card-text" style="color: #40546e">Nous analysons votre demande et vos besoins en formation. <br> Nous travaillons sur la conception de solutions réalistes et opérationnelles à travers un processus itératif et collaboratif.
+                            <br> <i class="fas fa-check-circle mr-2 font-12"></i> Qualifions les besoins de compétences - concevons les étapes et les formats de formation – adaptons la formation
                             aux collaborateurs. 
-                          <br> <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Identifions les ressources et acteurs
-                        <br> <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Coordonnons le processus d’implémentation, de suivi & d’évaluation.</p>
+                          <br> <i class="fas fa-check-circle mr-2 font-12"></i> Identifions les ressources et acteurs
+                        <br> <i class="fas fa-check-circle mr-2 font-12"></i> Coordonnons le processus d’implémentation, de suivi & d’évaluation.</p>
                         </div>
                         </div>
                     </div>
@@ -247,7 +249,7 @@
                               formation en tant réel avec vous.</p>
                             <p class="card-text" style="color: #f0d3cb">Nos axes d’intervention : <br> Conseil en recrutement/sélection/évaluation <br> Intégration et adaptation au changement sur le lieu de travail
                             <br> Stratégies d’apprentissage <br> Communication & Leadership <br>Développement personnel <br> Organisation et animation de conférences/séminaires/workshops</p>
-                            <p class="card-text" style="color: #f0d3cb">Notre but est votre montée en compétences pour faciliter les transitions de vie &professionnelles. <br>
+                            <p class="card-text" style="color: #f0d3cb">Notre but est votre montée en compétences pour faciliter les transitions de vie & professionnelles. <br>
                               Notre approche est holistique et expérientielle.</p>
                         </div>
                         </div>
