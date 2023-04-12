@@ -99,7 +99,7 @@
                     </div>
                   </form>
                   <p style="margin-top: 30px">
-                    Bonne journée <br> “Fatima Zekhnini” <br> Chercheuse Conférencière & Formatrice
+                    Bonne journée <br> Fatima Zekhnini <br> Chercheure Conférencière & Formatrice
                   </p>
                 </div>
               </div>

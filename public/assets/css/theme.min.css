@@ -1479,6 +1479,10 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
 }
+
+.col-sm-6 .myCard{
+    height: 70vh;
+}
 .col {
     flex-basis: 0;
     flex-grow: 1;
@@ -7623,7 +7627,7 @@ button.bg-primary:hover {
     background-color: #40546e !important;
 }
 .bg-secondary {
-    background-color: #672ebb !important;
+    background-color: #40546e !important;
 }
 a.bg-secondary:focus,
 a.bg-secondary:hover,
@@ -13859,9 +13863,9 @@ button.bg-light-success:hover {
         padding-right: 14rem !important;
     }
     .pb-lg-16,
-    .py-lg-16 {
+    /* .py-lg-16 {
         padding-bottom: 14rem !important;
-    }
+    } */
     .pl-lg-16,
     .px-lg-16 {
         padding-left: 14rem !important;
@@ -16955,6 +16959,10 @@ a.badge-light-success-soft:hover {
       }
     .docs-content {
         padding: 40px 0 140px 20px;
+    }
+    .col-sm-6 .myCard{
+        height: auto;
+        margin-bottom: 20px;
     }
 }
 @media (min-width: 768px) {

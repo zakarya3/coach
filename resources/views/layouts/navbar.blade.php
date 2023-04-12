@@ -58,24 +58,24 @@
                  Mission
                 </a>
               </li>
-              <li class="nav-item">
+              {{-- <li class="nav-item">
                 <a class="nav-link" href="{{ url('/#help') }}">
                   Comment vous aider?
                 </a>
-              </li>
+              </li> --}}
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown +
+                <a class="nav-link dropdown-toggle" href="{{ url('/#help') }}" id="navbarDropdown">
+                  Nos programmes +
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Consulting</a>
-                  <a class="dropdown-item" href="#">Training</a>
-                  <a class="dropdown-item" href="#">Coaching</a>
-                  <a class="dropdown-item" href="#">Co-working</a>
+                  <a class="dropdown-item" href="{{ url('/#help') }}">Consulting</a>
+                  <a class="dropdown-item" href="{{ url('/#help') }}">Training</a>
+                  <a class="dropdown-item" href="{{ url('/#help') }}">Coaching</a>
+                  <a class="dropdown-item" href="{{ url('/#help') }}">Co-working</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ url('/') }}">
+                <a class="nav-link" href="{{ url('/formation') }}">
                   Life solution provider 
                 </a>
               </li>
@@ -95,9 +95,9 @@
                 </a>
               </li>
             </ul>
-            <div class="header-btn ">
+            {{-- <div class="header-btn ">
               <a href="{{ url('/formation') }}" class="btn btn-primary btn-sm ">Formation</a>
-            </div>
+            </div> --}}
           </div>
         </nav>
       </div>
@@ -117,25 +117,24 @@
             </div>
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="mb-4">
-                        <h4 class="mb-4 text-white">Links</h4>
+                        <h4 class="mb-4 text-white">Menu</h4>
                         <ul class="list-unstyled list-group">
                             <li class="list-group-item"><a href="{{ url('/') }}" class="list-group-item-link" style="color: white !important">Acceuil</a></li>
-                            <li class="list-group-item"><a href="{{ url('/#help') }}" class="list-group-item-link" style="color: white !important">Comment puis-je vous aider?</a></li>
-                            <li class="list-group-item"><a href="{{ url('/#Cert') }}" class="list-group-item-link" style="color: white !important">Certifications</a></li>
-                            <li class="list-group-item"><a href="{{ url('/about') }}" class="list-group-item-link" style="color: white !important"> À propos</a></li>
+                            <li class="list-group-item"><a href="{{ url('/#mission') }}" class="list-group-item-link" style="color: white !important">Mission</a></li>
+                            <li class="list-group-item"><a href="{{ url('/#help') }}" class="list-group-item-link" style="color: white !important">Nos programmes +</a></li>
+                            <li class="list-group-item"><a href="{{ url('/formation') }}" class="list-group-item-link" style="color: white !important">Life solution provider</a></li>
                             <li class="list-group-item"><a href="{{ url('/contact') }}" class="list-group-item-link" style="color: white !important">Contact</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="mb-4">
-                        <h4 class="mb-4 text-white ">Blog</h4>
+                        <h4 class="mb-4 text-white ">Nos programmes</h4>
                         <ul class="list-unstyled list-group ">
-                            <li class="list-group-item"><a href="#!" class="list-group-item-link" style="color: white !important">Business Coaching</a></li>
-                            <li class="list-group-item"><a href="#!" class="list-group-item-link" style="color: white !important">Relationship</a></li>
-                            <li class="list-group-item"><a href="#!" class="list-group-item-link" style="color: white !important">Leadership</a></li>
-                            <li class="list-group-item"><a href="#!" class="list-group-item-link" style="color: white !important">Life Coaching</a></li>
-                            <li class="list-group-item"><a href="#!" class="list-group-item-link" style="color: white !important">Time Management</a></li>
+                            <li class="list-group-item"><a href="#!" class="list-group-item-link" style="color: white !important">Consulting</a></li>
+                            <li class="list-group-item"><a href="#!" class="list-group-item-link" style="color: white !important">Training</a></li>
+                            <li class="list-group-item"><a href="#!" class="list-group-item-link" style="color: white !important">Coaching</a></li>
+                            <li class="list-group-item"><a href="#!" class="list-group-item-link" style="color: white !important">Co-working</a></li>
                         </ul>
                     </div>
                 </div>

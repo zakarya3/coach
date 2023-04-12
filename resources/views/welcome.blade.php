@@ -53,21 +53,9 @@
         </div> --}}
         <div class="py-lg-16 pt-14 pb-10 bg-cover" style="background-image:linear-gradient(180deg, rgba(30, 24, 53, 0.4) 0%, rgba(30, 24, 53, 0.4) 90.16%),
       url({{ asset('assets/images/about-me/image.jpeg') }});">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-7 col-md-8 col-12">
-                    <div class="text-white">
-                        <h1 class="text-white mb-3 display-3" style="font-weight: 300">
-                          EASY PROFESSIONAL TRAINING & CONSULTING COACHING & MENTORING
-                        </h1>
-                        {{-- <p class="mb-3 pr-lg-12 pr-0">
-                          Push your life to a new level. <br /> Connaissez votre valeur pour rayonner vers l’extérieur ! <br> « L’homme est ce qu’il croit » Anton Tchekhov.
-                        </p> --}}
-                        {{-- <a href="#!" class="btn btn-primary btn-lg">Book Coach</a> --}}
-                    </div>
-                </div>
-            </div>
-        </div>
+<h1 class="text-white mb-3 display-3" style="font-weight: 300; font-size: 50px; margin-top: 200px; text-align: center">
+  EASY PROFESSIONAL TRAINING & CONSULTING
+</h1>
     </div>
     <div class="pt-14 pb-10 top-shape " style="background:linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 102.23%), #f0d3cbde;">
       <div class="container">
@@ -85,7 +73,7 @@
         <div class="row">
             <div class="offset-lg-1 col-lg-10 col-md-12 col-12">
                 <!-- program thumbnail -->
-                <div class="card mb-4 mt-n8 border-0" id="#mission">
+                <div class="card mb-4 mt-n8 border-0" id="mission">
                     <div class="row no-gutters ">
                         <div class="col-12 col-md-6 rounded-left bg-cover " style="background-image: url({{ asset('assets/images/about-me/IMG_1740.JPG') }}); ">
                             <img src="{{ asset('assets/images/about-me/IMG_1740.JPG') }}" class=" img-fluid d-md-none invisible" alt="" />
@@ -98,31 +86,31 @@
                             <i
                             class="fas fa-check-circle mr-2 text-primary font-12"
                             ></i
-                            >A travers mon expertise, mes expériences du terrain ainsi que mon parcours de vie, je vous propose de vous connecter à la personne qui pourra vous accompagner au mieux et vous aider à évoluer dans la bienveillance tout en vous challengeant.
+                            >Vous avez constaté que nous évoluons dans un monde en perpétuel changement où l’équilibre entre la vie privé et la professionnelle est un challenge permanent.
                         </li>
                         <li>
                             <i
                             class="fas fa-check-circle mr-2 text-primary font-12"
                             ></i
-                            >Mon équipe composée d’un réseau de coachs de renommée internationale est à votre disposition.
+                            >Vous m’accorderez que se former, acquérir des compétences pour tendre à un mieux-être et rester performent est indispensable. Ce challenge peut paraître parfois fastidieux et énergivore.
                         </li>
                         <li>
                             <i
                             class="fas fa-check-circle mr-2 text-primary font-12"
                             ></i
-                            >Mon rôle à travers une première séance que nous ferons ensemble en visio ou en présentiel à votre guise, est de vous trouver le coach qui matchera avec votre personnalité et vos attentes.
+                            >C’est pour cela que chez Epronetworks nous œuvrons à ce que ce cheminement soit facilité par un accompagnement sur mesure.
                         </li>
                         <li>
                             <i
                             class="fas fa-check-circle mr-2 text-primary font-12"
                             ></i
-                            >Je mettrai mes capacités d’écoute, d’analyse , d’évaluation à votre service.
+                            >A votre disposition, une équipe de coaches à renommée internationale, collaborant à l’atteinte de vos objectifs.
                         </li>
                         <li>
                             <i
                             class="fas fa-check-circle mr-2 text-primary font-12"
                             ></i
-                            >Mon profil pluridisciplinaire me permet d’avoir une vision globale de différents domaines tel que la formation, l’éducation, l’enseignement, le travail et ses différents aspects ainsi que mon expertise pointue de l’humain à travers les neurosciences appliquées, la thérapie ACT que je mettrai volontiers à votre service.
+                            >Nous sommes des facilitateurs d’apprentissage écologique et d’adaptation au changement.
                         </li>
                         </ul>
                         {{-- <a href="#!" class="btn btn-outline-primary">Learn More</a> --}}
@@ -143,7 +131,6 @@
                                         <i class="fas fa-check-circle mr-2 text-primary font-12"></i> <b>Passion d'apprendre</b>
                                         <ul>
                                             <li>Coach certifié  Stratégies d'apprentissages</li>
-                                            <li><a href="https://la-semaine.com/p-marrakech_2018" target="_blank"> https://la-semaine.com/p-marrakech_2018</a></li>
                                             <li>Co-Auteure de « La boîte à outils du cerveau pour les parents », Paris, France, 2018</li>
                                         </ul>
                                     </li>
@@ -205,14 +192,21 @@
                     </div>
                 </div>
                 <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-6">
-                    <p class="h2 font-dm-serif font-italic font-weight-normal mb-3" style="font-size: 20px">
-                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Pluriactive & pluridisciplinaire, je puise mon énergie dans l’intergénérationnel, le multiculturalisme et la diversité. <br>
-                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Mon driver est la recherche perpétuelle de l’équilibre entre les différentes sphères de la vie, perso, santé, pro, famille et spirituelle au service de la réalisation professionnelle. <br>
-                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Mes forces comportementales résident dans l’adaptabilité constante, la résilience dûes à mon parcours et l’intelligence relationnelle que j’ai développée par mon intérêt pour l’humain et sa singularité. <br>
-                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Mon kif-job est l’accompagnement au développement de vos compétences transversales, la valorisation de vos parcours et surtout le déploiement de votre singularité. <br>
+                    <p class="h2 font-dm-serif font-italic font-weight-normal mb-3" style="font-size: 18px">
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Je suis Fatima Zekhnini, spécialiste de la transition professionnelle. Chercheure, conférencière, formatrice et co-auteure. <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Pluriactive et pluridisciplinaire (lien vers certifications), je puise mon énergie dans l’intergénérationnel, le multiculturalisme et la diversité. <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Grande passionnée du potentiel humain, du dépassement de soi et de montage de projets ambitieux. J’aborde l’Humain et ses modes de fonctionnement à travers différentes approches scientifiques (neurosciences appliquées, théorie d’acceptation et d’engagement…) et expérientielles (Techniques d’apprentissage efficace, intelligences multiples…). <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> J’œuvre dans le domaine de l’accompagnement depuis plus de 10 ans. <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Maman de 3 enfants, double culture belgo-marocaine et une vie atypique pleine de défis tant personnels que professionnels. <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Mon parcours de vie m’a permis de développer des forces comportementales telles que l’adaptabilité constante, la
+                        résilience, l’intelligence relationnelle ainsi que l’excellence dans toute action. <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Je mets à votre service mon expertise d’accompagnement au développement de vos compétences transversales, à la
+                        valorisation de votre parcours et au déploiement de votre singularité. <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Ma mission est de contribuer à votre mieux-être, à ce que vous soyez le leader dans chaque domaine de votre vie,
+                        spirituel, familial, relationnel, financier et santé au service de votre réalisation professionnelle. <br>
 
                     </p>
-                    <p class="font-14 mb-5">Fatima Zekhnini, Chercheuse Conférencière & Formatrice</p>
+                    <p class="font-14 mb-5">Développez votre potentiel pour vivre une vie harmonieuse! <br>Je vous invite à parcourir nos différents angles d’intervention <br> Fatima Zekhnini, Chercheuse Conférencière & Formatrice</p>
                 </div>
             </div>
         </div>
@@ -224,25 +218,37 @@
                 <div class="row">
                     <div class="offset-lg-2 col-lg-8 col-md-12 col-12">
                         <div class="mb-8 text-center">
-                            <h2>Comment vous aider?</h2>
+                            <h2>Découvrez nos programmes</h2>
                             {{-- <p class="lead">Commencez dès maintenant avec les idées et les stratégies de Fatima Zekhnini</p> --}}
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
-                        <div class="card">
+                        <div class="card bg-primary myCard">
                         <div class="card-body">
-                            <h5 class="card-title">Consulting</h5>
-                            <p class="card-text">Consulting en  gestion de la formation : analyse des besoins en formation – évaluation de la formation et des formateurs.</p>
+                            <h5 class="card-title" style="color: #40546e">Consulting</h5>
+                            <p class="card-text" style="color: #40546e">Les savoir-être comportementaux communément appelés soft skills sont des compétences comportementales et
+                              transversales essentielles à développer pour performer dans son travail et être efficient. <br> Chez Epronetworks, c’est notre domaine d’expertise. Nous œuvrons à ce que vous, votre équipe, vos collaborateurs
+                              développent les soft skills qui permettent de s’adapter aux changements.</p>
+                            <p class="card-text" style="color: #40546e">Nous analysons votre demande et vos besoins en formation <br> Nous travaillons sur la conception de solutions réalistes et opérationnelles à travers un processus itératif et collaboratif
+                            <br> <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Qualifions les besoins de compétences - concevons les étapes et les formats de formation – adaptons la formation
+                            aux collaborateurs. 
+                          <br> <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Identifions les ressources et acteurs
+                        <br> <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Coordonnons le processus d’implémentation, de suivi & d’évaluation.</p>
                         </div>
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <div class="card">
+                        <div class="card bg-secondary myCard">
                         <div class="card-body">
-                            <h5 class="card-title">Training</h5>
-                            <p class="card-text">Training en soft skills – stratégies d’apprentissage – formation de formateur.</p>
+                            <h5 class="card-title" style="color: #f0d3cb">Training</h5>
+                            <p class="card-text" style="color: #f0d3cb">Notre objectif est de vous offrir des parcours de formation à valeur ajoutée c’est pour cela que nous créons les contenus de
+                              formation en tant réel avec vous.</p>
+                            <p class="card-text" style="color: #f0d3cb">Nos axes d’intervention : <br> Conseil en recrutement/sélection/évaluation <br> Intégration et adaptation au changement sur le lieu de travail
+                            <br> Stratégies d’apprentissage <br> Communication & Leadership <br>Développement personnel <br> Organisation et animation de conférences/séminaires/workshops</p>
+                            <p class="card-text" style="color: #f0d3cb">Notre but est votre montée en compétences pour faciliter les transitions de vie &professionnelles. <br>
+                              Notre approche est holistique et expérientielle.</p>
                         </div>
                         </div>
                     </div>
@@ -250,18 +256,28 @@
 
                 <div class="row" style="margin-top: 20px">
                     <div class="col-sm-6">
-                        <div class="card">
+                        <div class="card bg-primary myCard">
                         <div class="card-body">
-                            <h5 class="card-title">Coaching</h5>
-                            <p class="card-text">Coaching en transition professionnelle - auto-apprentissage.</p>
+                            <h5 class="card-title" style="color: #40546e">Coaching</h5>
+                            <p class="card-text" style="color: #40546e">Nous vous accompagnons dans votre transition personnelle et professionnelle en présentiel et/ou en ligne. <br>
+                              Nous vous offrons un suivi et nous nous assurons de votre progression.</p>
                         </div>
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <div class="card">
+                        <div class="card bg-secondary myCard">
                         <div class="card-body">
-                            <h5 class="card-title">Co-working & mentoring</h5>
-                            <p class="card-text">Co-working & mentoring   space for women in business.</p>
+                            <h5 class="card-title" style="color: #f0d3cb">Co-sharing space for women in business</h5>
+                            <p class="card-text" style="color: #f0d3cb">Ne restez jamais seule, soyez entourée et inspirée, c’est un ingrédient majeur de votre réussite!</p>
+                            <p class="card-text" style="color: #f0d3cb">Chez Epronetworks, nous vous offrons un espace d’échange et de partage d’expériences. <br>
+                              Vous pourrez vous connecter aux autres dans des valeurs de partage et d’entraide. <br>
+                              Nous sommes convaincu que chacune par son parcours unique et inspirant apportera à l’autre une
+                              expérience riche. Nous voulons contribuer au bien-être holistique et à l’indépendance financière de chacune
+                              de nos membres. <br>
+                              Nous nous adressons aux femmes entrepreneures ou en voie de l’être pour lesquelles l’équilibre entre vie
+                              professionnelle et vie personnelle est au centre de leurs préoccupations. <br>
+                              Nous organisons des afterworks, des events, des sessions wellness, des séminaires, des soirées thématiques
+                              à niveau international.</p>
                         </div>
                         </div>
                     </div>
@@ -270,7 +286,7 @@
         </div>
 
             <!-- program section -->
-    <div class="py-7 pt-lg-8 pb-lg-5" id="Cert">
+    {{-- <div class="py-7 pt-lg-8 pb-lg-5" id="Cert">
         <div class="container">
             <div class="row">
                 <div class="offset-xl-2 col-xl-8 col-lg-12 col-md-12 col-12">
@@ -282,7 +298,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <div class="py-7 pt-lg-8 pb-lg-5" id="Cert">
       <div class="container">
           <div class="row">
@@ -523,7 +539,7 @@
                         </div>
                       </form>
                       <p style="margin-top: 30px">
-                        Bonne journée <br> “Fatima Zekhnini” <br> Chercheuse Conférencière & Formatrice
+                        Bonne journée <br> Fatima Zekhnini <br> Chercheure Conférencière & Formatrice
                       </p>
                     </div>
                   </div>
