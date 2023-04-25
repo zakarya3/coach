@@ -68,6 +68,41 @@
           </div>
       </div>
   </div>
+  <div class="pt-14 pb-10 top-shape " style="background:linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 102.23%), #f0d3cbde;">
+        <div class="container">
+            <div class="row d-lg-flex align-items-center">
+                <div class="offset-lg-3 col-lg-6 col-md-12 col-12">
+                    <div class="mb-8 text-center">
+                        <h2 class="h1">Qui suis-je ?</h2>
+                    </div>
+                </div>
+                <div class="offset-xl-1 col-xl-4 col-lg-6 col-md-6 col-12">
+                    <div class="mb-4 mb-lg-0">
+                        <img src="{{ asset('assets/images/about-me/IMG_1737.JPG') }}" alt="" class="img-fluid rounded" />
+                    </div>
+                </div>
+                <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-6">
+                    <p class="h2 font-dm-serif font-italic font-weight-normal mb-3" style="font-size: 18px">
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Je suis Fatima Zekhnini, spécialiste de la transition professionnelle. Chercheure, conférencière, formatrice et co-auteure. <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Pluriactive et pluridisciplinaire <a style="color: black" href="{{ url('/#Cert') }}">(mes certifications)
+                      </a>, je puise mon énergie dans l’intergénérationnel, le multiculturalisme et la diversité. <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Grande passionnée du potentiel humain, du dépassement de soi et de montage de projets ambitieux, j’aborde l’Humain et ses modes de fonctionnement à travers différentes approches scientifiques (neurosciences appliquées, théorie d’acceptation et d’engagement…) et expérientielles (Techniques d’apprentissage efficace, intelligences multiples…). <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> J’œuvre dans le domaine de l’accompagnement depuis plus de 10 ans. <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Maman de 3 enfants, double culture belgo-marocaine et une vie atypique pleine de défis tant personnels que professionnels. <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Mon parcours de vie m’a permis de développer des forces comportementales telles que l’adaptabilité constante, la
+                        résilience, l’intelligence relationnelle ainsi que l’excellence dans toute action. <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Je mets à votre service mon expertise d’accompagnement au développement de vos compétences transversales, à la
+                        valorisation de votre parcours et au déploiement de votre singularité. <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Ma mission est de contribuer à votre mieux-être, à ce que vous soyez le leader dans chaque domaine de votre vie,
+                        spirituel, familial, relationnel, financier et santé au service de votre réalisation professionnelle. <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i>Développez votre potentiel pour vivre une vie harmonieuse ! <br>
+                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i>Je vous invite à parcourir nos différents angles d’intervention. <br>
+                        <span style="font-family: HaloHandle; font-size: 25px">Pour &nbsp;  cela,&nbsp;  je &nbsp;  vous &nbsp;  invite &nbsp; à&nbsp; parcourir&nbsp; nos&nbsp; différents&nbsp; angles&nbsp; d’intervention.   <br> Fatima &nbsp;  Zekhnini, &nbsp; chercheure, &nbsp; conférencière, &nbsp; coach &nbsp;  formatrice.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
   <div class="bg-light left-slant-shape pt-lg-3 pb-lg-3 right-slant-shape py-5">
     <div class="container">
         <div class="row">
@@ -178,44 +213,9 @@
     </div>
 </div>
             <!-- testimonails -->
-    <div class="pt-14 pb-10 top-shape " style="background:linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 102.23%), #f0d3cbde;">
-        <div class="container">
-            <div class="row d-lg-flex align-items-center">
-                <div class="offset-lg-3 col-lg-6 col-md-12 col-12">
-                    <div class="mb-8 text-center">
-                        <h2 class="h1">Qui suis-je</h2>
-                    </div>
-                </div>
-                <div class="offset-xl-1 col-xl-4 col-lg-6 col-md-6 col-12">
-                    <div class="mb-4 mb-lg-0">
-                        <img src="{{ asset('assets/images/about-me/IMG_1737.JPG') }}" alt="" class="img-fluid rounded" />
-                    </div>
-                </div>
-                <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-6">
-                    <p class="h2 font-dm-serif font-italic font-weight-normal mb-3" style="font-size: 18px">
-                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Je suis Fatima Zekhnini, spécialiste de la transition professionnelle. Chercheure, conférencière, formatrice et co-auteure. <br>
-                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Pluriactive et pluridisciplinaire <a style="color: black" href="{{ url('/#Cert') }}">(liens vers certifications)
-                      </a>, je puise mon énergie dans l’intergénérationnel, le multiculturalisme et la diversité. <br>
-                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Grande passionnée du potentiel humain, du dépassement de soi et de montage de projets ambitieux, j’aborde l’Humain et ses modes de fonctionnement à travers différentes approches scientifiques (neurosciences appliquées, théorie d’acceptation et d’engagement…) et expérientielles (Techniques d’apprentissage efficace, intelligences multiples…). <br>
-                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> J’œuvre dans le domaine de l’accompagnement depuis plus de 10 ans. <br>
-                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Maman de 3 enfants, double culture belgo-marocaine et une vie atypique pleine de défis tant personnels que professionnels. <br>
-                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Mon parcours de vie m’a permis de développer des forces comportementales telles que l’adaptabilité constante, la
-                        résilience, l’intelligence relationnelle ainsi que l’excellence dans toute action. <br>
-                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Je mets à votre service mon expertise d’accompagnement au développement de vos compétences transversales, à la
-                        valorisation de votre parcours et au déploiement de votre singularité. <br>
-                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i> Ma mission est de contribuer à votre mieux-être, à ce que vous soyez le leader dans chaque domaine de votre vie,
-                        spirituel, familial, relationnel, financier et santé au service de votre réalisation professionnelle. <br>
-                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i>Développez votre potentiel pour vivre une vie harmonieuse ! <br>
-                        <i class="fas fa-check-circle mr-2 text-primary font-12"></i>Je vous invite à parcourir nos différents angles d’intervention. <br>
-                        <span style="font-family: HaloHandle; font-size: 28px">Pour &nbsp;  cela,&nbsp;  je &nbsp;  vous &nbsp;  invite &nbsp;  Fatima &nbsp;  Zekhnini, &nbsp; <br> chercheure, &nbsp; conférencière, &nbsp; coach &nbsp;  formatrice.</span>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
 
         <!-- podcast -->
-        <div class="pt-0 pb-lg-14 pb-8" id="help">
+        <div class="pt-0 pb-lg-14 pb-8" id="help" style="margin-top: 100px">
             <div class="container">
                 <div class="row">
                     <div class="offset-lg-2 col-lg-8 col-md-12 col-12">

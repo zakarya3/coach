@@ -134,7 +134,7 @@
                   <span>Librariess</span><span class="text-success font-12"><i class="fas fa-check-circle"></i></span>
                 </li>
               </ul> --}}
-              <a href="https://www.youtube.com/watch?v=9YU-3S7OZ58" class="btn btn-outline-secondary btn-block mt-4 mb-3">Regarder la vidéo</a>
+              <a href="https://www.youtube.com/watch?v=9YU-3S7OZ58" class="btn btn-outline-secondary btn-block mt-4 mb-3">Regarder la vidéo <i class="fas bi-youtube"></i></a>
             </div>
           </div>
         </div>
