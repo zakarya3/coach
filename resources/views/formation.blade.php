@@ -102,7 +102,7 @@
         <div class="col-lg-4 col-md-4 col-12">
           <div class="card rounded-lg mb-4 ">
             <div class="card-body p-4">
-              <h4 class="mb-3 text-primary">Formation sur Youtube</h4>
+              <h4 class="mb-3" style="display: flex; justify-content: center"><i class="fas bi-youtube" style="font-size: 50px"></i></h4>
               {{-- <span class="h1">$49.00</span>
               <p class="mb-0">Monthly</p> --}}
             </div>
@@ -134,7 +134,7 @@
                   <span>Librariess</span><span class="text-success font-12"><i class="fas fa-check-circle"></i></span>
                 </li>
               </ul> --}}
-              <a href="https://www.youtube.com/watch?v=9YU-3S7OZ58" class="btn btn-outline-secondary btn-block mt-4 mb-3">Regarder la vidéo <i class="fas bi-youtube"></i></a>
+              <a href="https://www.youtube.com/watch?v=9YU-3S7OZ58" class="btn btn-outline btn-block mt-4 mb-3" style="border: 1px solid #E62117; color: #E62117">Regarder la vidéo <i class="fas bi-youtube"></i></a>
             </div>
           </div>
         </div>
